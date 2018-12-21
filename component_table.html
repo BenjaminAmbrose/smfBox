@@ -1,11 +1,11 @@
 <!doctype html>
-<!-- 
+<!--
 ##############################################################
 Ignore this boilerplate if you're just trying to edit the text.
 Skip to the part that says 'The real text begins here'
 ##############################################################
 
-Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution 
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution
 is appreciated. Thanks, broccolini!
 -->
 <html lang="en">
@@ -14,10 +14,10 @@ is appreciated. Thanks, broccolini!
     <base target="_blank">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="citation_title" content="miCube">
-    <meta name="citation_author" content="Hohlbein Lab">
-    <meta name="citation_publication_date" content="2018-06-08">
-    <title>miCube - Hohlbein Lab</title>
+    <meta name="citation_title" content="smfBox">
+    <meta name="citation_author" content="Craggs Lab">
+    <meta name="citation_publication_date" content="[insert publicaton date here]">
+    <title>smfBox - Craggs Lab</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/prism.css">
@@ -25,8 +25,8 @@ is appreciated. Thanks, broccolini!
     <script src="javascript/html5shiv/html5shiv.js"></script>
     <![endif]-->
     <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please 
-<a href="http://browsehappy.com/">upgrade your browser</a> to improve your 
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your
 experience.</p>
     <![endif]-->
     <script src="javascript/scale-fix/scale.fix.js"></script>
@@ -35,14 +35,14 @@ experience.</p>
     <script src="javascript/update_figures.js"></script>
     <script src="javascript/reference_list/reference_list.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/fancybox.css" />
 <style type="text/css">
     a.fancybox img {
         border: none;
-    } 
+    }
 </style>
   </head>
   <body>
@@ -50,452 +50,668 @@ experience.</p>
       <header>
         <script src="header.js"></script>
       </header>
-<!-- 
+<!--
 ##############################################################
 The real text begins here.
 ##############################################################
  -->
-<section>
-<h1>miCube component overview</h1>
-A full list of all components of the miCube is shown below. The numbers used in the tables are corresponding to the numbered items in Fig 1 below. The list is subdivided in main cube (red, nr 1-11), excitation path (blue, nr 12-18), and emission path (green, nr 19-30). </p>
-<p>For all components, the design file (STL) is given if the component is home-made. All the STL files can be downloaded in a single file <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/raw/master/miCube/STL%20files/All%20STL%20files.zip">here</a>. If you want more detailed technical information, please <a href="mailto:johannes.hohlbein@wur.nl">mail us</a>! For commercial components, the associated site is provided for more detail.<br><br>
+ <section>
 
-<figure style="max-width:900px;">
-<img src="images/miCube_components/numbered_exploded_view.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
-<figcaption><strong>Fig 1</strong>: Overview of the individual components of the miCube. The individual components are numbered, and explained in detail in the tables. The colours correspond to the microscope category: red is the main cube, blue is the excitation path, and green is the emission path.</figcaption>
-</figure>
-<h2>Main cube</h2>
-	    Note that quoted prices are subject to change and are provided for indication only (Thorlabs being an exception here). For official qoutations, please contact the manufacturer or a distributor. Many parts such as cameras, optics, and lasers can be sourced from different manufacturers. 
-<table class="component_list">
-<tr>
-<th>id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Image</th>
-<th>Price</th>
-</tr>
-<tr class = "homemade">
-<td>1</td> <!--id-->
-<td id="fancyboxtitle_1">Glass plate insert </td> <!--title-->
-<td><div class="discTitle">CNC milled - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/1%20-%20Glass%20Plate%20Insert.STL">STL file</a></div> Size: 96-wells plate holder, 127.8 mm x 85.5 mm</td> <!--description-->
-<td><img src="images/miCube_components/glass-plate-insert.jpg" class="fancybox" id=1></td> <!--image-->
-<td>€500</td> <!--price-->
-</tr>
-<tr>
-<td>2</td> <!--id-->
-<td id="fancyboxtitle_2">XYZ stage</td> <!--title-->
-<td><div class="discTitle">An <a href="http://www.asiimaging.com/index.php/products/stages/upright-stages/ms-2000-small-xy-stage/">ASI</a> XY stage with a <a href="http://www.piezoconcept.com/all-products/z-insert-2/">Optophase piezo Z-insert</a></div></td> <!--description-->
-<td><img src="images/miCube_components/XYZstage-black.JPG" class="fancybox" id=2></td></td> <!--image-->
-<td>€15.000</td> <!--price-->
-</tr>
-<tr>
-<td>3</td> <!--id-->
-<td id="fancyboxtitle_3">Objective</td> <!--title-->
-<td><div class="discTitle"><a href="https://www.nikoninstruments.com/en_EU/Products/Optics/Apochromat-Objectives/CFI-Plan-Apochromat-TIRF-Series">Nikon TIRF 1.49NA HP SR</a> objective</div></td> <!--description-->
-<td><img src="images/miCube_components/Nikon-objective.jpg" class="fancybox" id=3></td> <!--image-->
-<td>€17.500</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>4</td> <!--id-->
-<td id="fancyboxtitle_4">Top Cover </td> <!--title-->
-<td><div class="discTitle">CNC milled - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/4%20-%20Top%20cover.STL">STL file</a></div>The Top Cover ensures correct height of the sample with respect to the parfocal distance of the objective (60 mm).</td> <!--description-->
-<td><img src="images/miCube_components/topcover.jpg" class="fancybox" id=4></td> <!--image-->
-<td>€500</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td rowspan=2>5</td> <!--id-->
-<td id="fancyboxtitle_5" rowspan=2>miCube block</td> <!--title-->
-<td rowspan=2><div class="discTitle">CNC milled - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/5%20-%20Cube.STL">STL file cube</a>, <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/5%20-%20Cube%20door.STL">STL file door</a></div>The cube is milled out of solid aluminium to minimize drift. Practically all components connect to the cube in the end.</td> <!--description-->
-<td><img src="images/miCube_components/block.jpg" class="fancybox" id=5></td> <!--image-->
-<td rowspan=2>€1.500</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td style="background: #eee;"><img src="images/miCube_components/frontcover.jpg" class="fancybox" id=5></td> <!--image-->
-</tr>
-<tr>
-<td>6</td> <!--id-->
-<td id="fancyboxtitle_6">Neutral density filter</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=NE60A-A">NE60A-A</a></div></td> <!--description-->
-<td><img src="https://www.thorlabs.com/images/large/24285-lrg.jpg" class="fancybox" id=6></td> <!--image-->
-<td>€65</td> <!--price-->
-</tr>
-<tr>
-<td>7a</td> <!--id-->
-<td id="fancyboxtitle_7a">Dichroic mirror holder</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=DFM1/M">DFM1/M</a></div>Magnetic hot-swappable dichroic mirror is placed inside.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/TTN042093-lrg.jpg" class="fancybox" id=7a></td> <!--image-->
-<td>€330</td> <!--price-->
-</tr>
-<tr>
-<td>7b</td> <!--id-->
-<td id="fancyboxtitle_7b">Dichroic mirror</td> <!--title-->
-<td><div class="discTitle">Chroma - <a href="https://www.chroma.com/products/parts/zt405-488-561rpc">ZT405/488/561rpc-UF2</a> or <a href="https://www.chroma.com/products/parts/zt405-488-561-640rpcv2">ZT405/488/561/640rpc-UF2</a></div></td> <!--description-->
-<td><img src="images/miCube_components/dichroic_square.jpg" class="fancybox" id=7b></td> <!--image-->
-<td>€500 to €550</td> <!--price-->
-</tr>
-<tr>
-<td>8</td> <!--id-->
-<td id="fancyboxtitle_8">TIRF filter</td> <!--title-->
-<td><div class="discTitle">Chroma - <a href="https://www.chroma.com/products/parts/zet405-488-561m-trf">ZET405/488/561m-TRF</a> or <a href="https://www.chroma.com/products/parts/zet405-488-561-640m-trfv2">ZET405/488/561/640m-TRF</a></div></td> <!--description-->
-<td><img src="images/miCube_components/chroma-filter.png" class="fancybox" id=8></td> <!--image-->
-<td>€900 to €950</td> <!--price-->
-</tr>
-<tr>
-<td>9</td> <!--id-->
-<td id="fancyboxtitle_9">Connector for dichroic mirror and mirror</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=C4W-CC">C4W-CC</a></div></td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/ProductGallery/C4W-CC/30mm_Cage_Cube_Connector-AV1.jpg" style="transform:scaleY(-1);" class="fancybox" id=9></td> <!--image-->
-<td>€45</td> <!--price-->
-</tr>
-<tr>
-<td>10</td> <!--id-->
-<td id="fancyboxtitle_10">45° elliptical mirror</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=KCB1E/M">KCB1E/M</a> and <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=BBE1-E02">BBE1-E02</a></div>The fixed mirror ensures easy adjustment of position of the emission light on the camera by adjusting the two screws.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/TTN034520-lrg.jpg" class="fancybox" id=10></td> <!--image-->
-<td>€270</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>11</td> <!--id-->
-<td id="fancyboxtitle_11">Excitation path cover</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/11%20-%20Excitation%20cover.STL">STL file</a></div>Ensures darkness of the setup.</td> <!--description-->
-<td><img src="images/miCube_components/excitation-cover.jpg" class="fancybox" id=11></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr>
-<td colspan=4 style="text-align:right;"><font>Subtotal:</font></td>
-<td><div style="text-align: right;"><font align="right">€37.110</font></div></td>
-</tr>
-</table>
+ <h1 id="parts-list">Parts List</h1>
+ <p>The Parts for the smfBox can be divided into three sections:</p>
+ <ul>
+   <li><a href="#excit">Excitation Pathway</a></li>
+   <li><a href="#emiss">Emission Pathway</a></li>
+   <li><a href="#body">Microscope Body</a></li>
+ </ul>
+ <p>In addition we have split the wavelength dependent components into their own section in case you wish to build the smfBox with different laser lines </p>
+ <ul>
+   <li><a href="#wav">Wavelength Dependent Components</a></li>
+ </ul>
 
-<h2>Excitation path</h2>
-<table class="component_list">
-<tr>
-<th>id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Image</th>
-<th>Price</th>
-</tr>
-<tr>
-<td>12</td> <!--id-->
-<td id="fancyboxtitle_12">Spacer</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=SM1L05">SM1L05</a></div></td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/0370-lrg.jpg" class="fancybox" id=12></td> <!--image-->
-<td>€10</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>13</td> <!--id-->
-<td id="fancyboxtitle_13">Reflective collimator holder</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/13%20-%20Bracket%20clamp.STL">STL file</a></div>Easy adjustment of height by tightening it to the mounting plate with two M6 screws.</td> <!--description-->
-<td><img src="images/miCube_components/reflective-collimator-holder.jpg" class="fancybox" id=13></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>14</td> <!--id-->
-<td id="fancyboxtitle_14">Right-angle mounting plate</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/14%20-%20Right-angle%20bracket.STL">STL file</a></div></td> <!--description-->
-<td><img src="images/miCube_components/right-angle-bracket.JPG" class="fancybox" id=14></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr>
-<td>15</td> <!--id-->
-<td id="fancyboxtitle_15">Translation Stage</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=PT1/M">PT1/M</a></div>25mm movement for aligning the excitation laser on the back-focal plane of the objective.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/2864-lrg.jpg" class="fancybox" id=15></td> <!--image-->
-<td>€260</td> <!--price-->
-</tr>
-<tr>
-<td>16</td> <!--id-->
-<td id="fancyboxtitle_16">TIRF lens</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=AC254-200-A-ML">AC254-200-A-ML</a></div>TIRF lens to focus excitation light on back-focal plane of objective. 200mm focal length.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/20594-lrg.jpg" class="fancybox" id=16></td> <!--image-->
-<td>€90</td> <!--price-->
-</tr>
-<tr>
-<td>17</td> <!--id-->
-<td id="fancyboxtitle_17">Aperture</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=SM1D12SZ">SM1D12SZ</a></div></td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/17622-lrg.jpg" class="fancybox" id=17></td> <!--image-->
-<td>€70</td> <!--price-->
-</tr>
-<tr>
-<td>18</td> <!--id-->
-<td id="fancyboxtitle_18">Reflective collimator</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=RC12APC-F01 ">RC12APC-F01</a></div>A parabolic mirror in the collimator ensures a well-collimated beam simply by attaching the fibre to the collimator.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/24320-lrg.jpg" class="fancybox" id=18></td> <!--image--> 
-<td>€880</td> <!--price-->
-</tr>
-<td>-</td> <!--id-->
-<td id="fancyboxtitle_lh">Laserbox</td> <!--title-->
-<td><div class="discTitle">Omicron - <a href="https://www.omicron-laser.de/english/light-engines/lighthub-laser-combiners/lighthub-laser-combiner.html">Lighthub 6</a></div>Custom laser combiner containing 4 lasers at 405 nm (60 mW), 488 nm (200 mW), 561 nm (500 mW), and 642 nm (2x 200 mW).</td> <!--description-->
-<td><img src="images/miCube_components/lighthub.jpg" class="fancybox" id=lh></td> <!--image-->
-<td>€55.000</td> <!--price-->
-</tr>
-<tr>
-<td colspan=4 style="text-align:right;"><font>Subtotal:</font></td>
-<td><div style="text-align: right;"><font align="right">€56.310</font></div></td>
-</tr>
-</table>
+ <h1 id="-excitation-pathway"><a id="excit"></a> Excitation Pathway</h1>
 
-<h2>Emission path</h2>
-<table class="component_list">
-<tr>
-<th>id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Image</th>
-<th>Price</th>
-</tr>
-<tr>
-<td>19</td> <!--id-->
-<td id="fancyboxtitle_19">Camera</td> <!--title-->
-<td><div class="discTitle">Andor - <a href="https://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras/zyla-42-plus-scmos">Zyla 4.2 PLUS sCMOS</a></div></td> <!--description-->
-<td><img src="https://www.andor.com/UploadImages/e862f584-774b-4f3d-b58b-132c8d484e88.png" style="bottom:10px;" class="fancybox" id=19></td> <!--image-->
-<td>€15.000</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>20</td> <!--id-->
-<td id="fancyboxtitle_20">Camera mount</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/20%20-%20Camera%20mount.STL">STL file</a></div>Camera mount specifically designed for the Andor Zyla 4.2 Plus sCMOS, along with the used tube lens in this setup.</td> <!--description-->
-<td><img src="images/miCube_components/camera-mount.jpg" class="fancybox" id=20></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>21</td> <!--id-->
-<td id="fancyboxtitle_21">Astigmatism block</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/21%20-%20Lens%20block.STL">STL file</a></div>An astigmatism holder containing an astigmatism lens can be placed on two positions.</td> <!--description-->
-<td><img src="images/miCube_components/astigmatism-block-black.jpg" class="fancybox" id=21></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr>
-<td>22</td> <!--id-->
-<td id="fancyboxtitle_22">Astigmatism lens</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=LJ1516RM-A">LJ1516RM</a> or <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=LJ1144RM-A">LJ1144RM</a></div>Astigmatism lens with 1000 or 500 cm focal distance for optional super-resolution astigmatism.</td> <!--description-->
-<td><img src="https://www.thorlabs.com/images/large/20037-lrg.jpg" class="fancybox" id=22></td> <!--image-->
-<td>€110</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>23</td> <!--id-->
-<td id="fancyboxtitle_23">Astigmatism lens holder</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/23%20-%20Lens%20holder%201%20inch.STL">STL file</a></div>A single lens can be slot into place with a screw. A magnet can optionally be added at the bottom for a more solid placement in the block.</td> <!--description-->
-<td><img src="images/miCube_components/astigmatism-lens-holder.jpg" class="fancybox" id=23></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>24</td> <!--id-->
-<td id="fancyboxtitle_24">Astigmatism lens holder</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/23%20-%20Lens%20holder%201%20inch.STL">STL file</a></div>A single lens can be slot into place with a screw. A magnet can optionally be added at the bottom for a more solid placement in the block.</td> <!--description-->
-<td><img src="images/miCube_components/astigmatism-lens-holder.jpg" class="fancybox" id=24></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr>
-<td>25</td> <!--id-->
-<td id="fancyboxtitle_25">Emission path cover</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=SC600">SC600</a>, cut to length</div>Ensures darkness of the microscope.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/TTN032562-lrg.jpg" class="fancybox" id=25></td> <!--image-->
-<td>€30</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>26</td> <!--id-->
-<td id="fancyboxtitle_26">Connector for tube and filter block</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/26%20-%20Tube%20filter%20block%20connector.STL">STL file</a></div></td> <!--description-->
-<td><img src="images/miCube_components/tube-filter-block-adapter-black.jpg" class="fancybox" id=26></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr>
-<td>27</td> <!--id-->
-<td id="fancyboxtitle_27">Emission filter</td> <!--title-->
-<td><div class="discTitle">Chroma - <a href="https://www.chroma.com/products/parts/et525-50m">ET525/50m</a> or <a href="https://www.chroma.com/products/parts/et595-50m">ET595/50m</a> or <a href="https://www.chroma.com/products/parts/et700-75m">ET700/75m</a></div></td> <!--description-->
-<td><img src="images/miCube_components/chroma-filter.png" class="fancybox" id=27></td> <!--image-->
-<td>€325</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>28</td> <!--id-->
-<td id="fancyboxtitle_28">Emission filter holder</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/23%20-%20Lens%20holder%201%20inch.STL">STL file</a></div>A single lens can be slot into place with a screw. A magnet can optionally be added at the bottom for a more solid placement in the holder.</td> <!--description-->
-<td><img src="images/miCube_components/astigmatism-lens-holder.jpg" class="fancybox" id=28></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td>29</td> <!--id-->
-<td id="fancyboxtitle_29">Tube lens holder</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/29%20-%20Tube%20lens%20holder.STL">STL file</a></div></td> <!--description-->
-<td><img src="images/miCube_components/emission-tube-lens-holder.JPG" class="fancybox" id=29></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr>
-<td>30</td> <!--id-->
-<td id="fancyboxtitle_30">Tube lens</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200">ITL200</a></div>200 mm focal length</td> <!--description-->
-<td><img src="https://www.thorlabs.com/images/large/23515-lrg.jpg" class="fancybox" id=30></td> <!--image-->
-<td>€425</td> <!--price-->
-</tr>
-<tr>
-<td colspan=4 style="text-align:right;"><font>Subtotal:</font></td>
-<td><div style="text-align: right;"><font align="right">€15.890</font></div></td>
-</tr>
-<tr>
-<td colspan=4 style="text-align:right;"><font align="right"><strong>Total:</strong></font></td>
-<td><div style="text-align: right;"><font align="left"><strong>€109.310</strong></font></div></td>
-</tr>
-</table>
+ <table>
+   <thead>
+     <tr>
 
+       <th><strong>Part Name</strong></th>
+       <th><strong>Company</strong></th>
+       <th><strong>Part Number</strong></th>
+       <th><strong>Quantity</strong></th>
+       <th><strong>Implementation</strong></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>Right-Angle Kinematic Mirror Mount with Smooth Cage Rod Bores,</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=KCB1C/M">KCB1C/M</a></td>
+       <td>2</td>
+       <td><strong>17 </strong>Mounts for mirrors M1 &amp; M2</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage Cube with Dichroic Filter Mount (Metric)</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CM1-DCH/M">CM1-DCH/M</a></td>
+       <td>1</td>
+       <td>Mount for BS1</td>
+     </tr>
+     <tr>
+       <td>BB1-E02 - Ø1” Broadband Dielectric Mirror, 400 - 750 nm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BB1-E02">BB1-E02</a></td>
+       <td>2</td>
+       <td>M1 &amp; M2</td>
+     </tr>
+     <tr>
+       <td>Compact USB 2.0 CMOS Cameras</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=DCC1545M">DCC1545M</a></td>
+       <td>1</td>
+       <td><strong>35 </strong>Monochrome CCD Camera for placement next to BS1</td>
+     </tr>
+     <tr>
+       <td>Rod Adapter for Ø6 mm ER Rods, 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA-P4">ERSCA-P4</a></td>
+       <td>1</td>
+       <td>Adaptor to allows rods to screw in at two places</td>
+     </tr>
+     <tr>
+       <td>DET10A/M - Si Detector, 200-1100 nm, 1 ns Rise Time, 0.8 mm2, M4 Taps</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=DET10A/M">DET10A/M</a></td>
+       <td>1</td>
+       <td>Photodetecor</td>
+     </tr>
+     <tr>
+       <td>Graduated Ring-Actuated Iris Diaphragm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1D12C">SM1D12C</a></td>
+       <td>1</td>
+       <td><strong>5 </strong>Iris</td>
+     </tr>
+     <tr>
+       <td>SM1P1 - External SM1 Thread to Ø1” Optic Mount Adapter</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1P1">SM1P1</a></td>
+       <td>1</td>
+       <td><strong>4 </strong>Used to secure laser collimator</td>
+     </tr>
+     <tr>
+       <td>Ø1” Pedestal Pillar Post, 8-32 Taps, L = 1”</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS1P8E">RS1P8E</a></td>
+       <td>1</td>
+       <td><strong>29 </strong>Pedestal Post for BS1</td>
+     </tr>
+     <tr>
+       <td>Ø25 mm Post, M6 Tap, L = 10 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS10/M">RS10/M</a></td>
+       <td>1</td>
+       <td><strong>27 </strong>Spacer for post for BS1</td>
+     </tr>
+     <tr>
+       <td>Ø25.0 mm Pillar Post, M6 Taps, L = 50 mm, M4 Adapter Included</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS50/M">RS50/M</a></td>
+       <td>2</td>
+       <td><strong>7, 17 </strong>50 mm post for M1 &amp; M2 mount</td>
+     </tr>
+     <tr>
+       <td>DET1B-EC - DET Power Adapter &amp; Power Supply Kit, 230 VAC</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=DET1B-EC">DET1B-EC</a></td>
+       <td>1</td>
+       <td>Power adapted for photodetector</td>
+     </tr>
+     <tr>
+       <td>Ø12.7 mm Optical Post SS M4 Setscrew M6 Tap L = 50 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=TR50/M">TR50/M</a></td>
+       <td>1</td>
+       <td><strong>26 </strong>Post for BS1 mount</td>
+     </tr>
+     <tr>
+       <td>Ø25.0 mm Pedestal Pillar Post, M6 Taps, L = 38 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS1.5P/M">RS1.5P/M</a></td>
+       <td>2</td>
+       <td><strong>9, 20 </strong>Post mounts for excitation KM’s</td>
+     </tr>
+     <tr>
+       <td>Ø12.7 mm Universal Post Holder Spring-Loaded Locking Thumbscrew L = 50 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH50/M">UPH50/M</a></td>
+       <td>1</td>
+       <td><strong>2 </strong>Mount for Photodetector</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube 1.00” Thread Depth SM1RR Retaining Ring</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10">SM1L10</a></td>
+       <td>4</td>
+       <td><strong>Ex -12, 14, 15, Em -4</strong>Tubes for light tighting</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube Bellows 1.50” to 8.66” Long</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1B3">SM1B3</a></td>
+       <td>1</td>
+       <td>Lens bellow</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube 0.50” Thread Depth SM1RR Retaining Ring</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L05-P5">SM1L05-P5</a></td>
+       <td>3</td>
+       <td>Lens mounts for  L2/L3 &amp; CCD camera attachement</td>
+     </tr>
+     <tr>
+       <td>SM1 (1.035”-40) Coupler External Threads 1” Long</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1T10">SM1T10</a></td>
+       <td>1</td>
+       <td>To couple between BS mount and M2 mount</td>
+     </tr>
+     <tr>
+       <td>Adapter with External M6 x 1.0 Threads and External 8-32 Threads</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AP6M8E">AP6M8E</a></td>
+       <td>1</td>
+       <td>Adaptor for BS1 posts</td>
+     </tr>
+     <tr>
+       <td>Cage Assembly Rod 6” Long Ø6 mm 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ER6-P4">ER6-P4</a></td>
+       <td>1</td>
+       <td><strong>16 </strong>M1 to M2 rods</td>
+     </tr>
+     <tr>
+       <td>Cage Assembly Rod 1.5” Long Ø6 mm 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5-P4">ER1.5-P4</a></td>
+       <td>1</td>
+       <td><strong>24 </strong>M2 to BS1 rods</td>
+     </tr>
+     <tr>
+       <td>Cage Assembly Rod 1” Long Ø6 mm 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4">ER1-P4</a></td>
+       <td>1</td>
+       <td>BS1 to body rods</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube 0.30” Thread Depth One Retaining Ring Included</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03">SM1L03</a></td>
+       <td>2</td>
+       <td><strong>22, 22 </strong>M2 to BS1 tube and BS1 to body tube</td>
+     </tr>
+     <tr>
+       <td>Clamping Fork, 31.5 mm Counterbored Slot, M6 x 1.0 Captive Screw, 5 Pac</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C/M">CF125C/M</a></td>
+       <td>4</td>
+       <td><strong>10, 21, 30 </strong>Clamping fork for posts</td>
+     </tr>
+     <tr>
+       <td>10° Angled Optic Mount for 1” Optics with SM1 Threading</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03T">SM1L03T</a></td>
+       <td>1</td>
+       <td><strong>39 </strong>Mounting before L3</td>
+     </tr>
+     <tr>
+       <td>Ø25.0 mm Pedestal Pillar Post, M6 Taps, L = 90 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS3.5P/M">RS3.5P/M</a></td>
+       <td>1</td>
+       <td><strong>1</strong> - Post for collimator mount</td>
+     </tr>
+     <tr>
+       <td>Ø1” Adjustable Lens Tube 0.81” Travel Range</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1V10">SM1V10</a></td>
+       <td>1</td>
+       <td>Afor attachment and focus of the CCD camrea and L2</td>
+     </tr>
+     <tr>
+       <td>LENS ACH 25.4 X 63.5 VIS-NIR TS</td>
+       <td>Edmond Optics</td>
+       <td>49793</td>
+       <td>2</td>
+       <td>Lenses for Camera and Power meter</td>
+     </tr>
+     <tr>
+       <td>10:90 Beamsplitter</td>
+       <td>Chroma</td>
+       <td><a href="https://www.chroma.com/products/sets/21012-10-90-beamsplitter">21012</a></td>
+       <td>1</td>
+       <td>Sends scattered light to CCD camera for focussing</td>
+     </tr>
+   </tbody>
+ </table>
 
+ <h1 id="-emission-pathway"><a id="emiss"></a> Emission Pathway</h1>
 
-<h2>Accessories</h2>
-<table class="component_list">
-<tr>
-<th>id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Image</th>
-<th>Price</th>
-</tr>
-<tr>
-<tr class="homemade">
-<td>-</td> <!--id-->
-<td id="fancyboxtitle_a1">Filter holder</td> <!--title-->
-<td><div class="discTitle">3D printed - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a1%20-%20Filter%20holder.STL">STL file</a></div>Can hold up to 10 emission filters or astigmatism lenses. Has two holes at the bottom for easy placement with M6 screws.</td> <!--description-->
-<td><img src="images/miCube_components/filter-holder.jpg" class="fancybox" id=a1></td> <!--image-->
-<td>-</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td rowspan=4>-</td> <!--id-->
-<td id="fancyboxtitle_a2" rowspan=4>XYZ cover with LED light</td> <!--title-->
-<td rowspan=4><div class="discTitle">3D printed - STL files: <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a2%20-%20LED%20lid%20part%201%20-%20Main%20lid.STL">Main lid</a>, <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a2%20-%20LED%20lid%20part%203%20-%20LED%20array%20top%20plate.STL">LED array top plate</a>, <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a2%20-%20LED%20lid%20part%204%20-%20LED%20Array%20Diffuser%20plate.STL">LED array diffuser plate</a>, <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a2%20-%20LED%20lid%20part%202%20-%20Control%20Box-1.STL">Control box</a>, <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a2%20-%20LED%20lid%20part%202%20-%20Control%20Box%20cover%20Switch-1.STL">Control box cover switch</a>, <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a2%20-%20LED%20lid%20part%202%20-%20Faceplate-1.STL">indicator faceplate</a></div>A single IKEA INREDA LED spot with the connector cut off is soldered to a 1/8 inch DC jack. The DC jack is connected to a circuit that controls the voltage of the spot using a potentiometer and a transistor. The schematic is depicted below (click to enlarge):
-<img src="images/miCube_components/scheme_LED.png" class="fancybox" id=a2>
-L1, L2 and L3 resemble the IKEA LED array, L4 is an indicator light for the power switch. A 16V DC switch-mode power supply (SMPS) was used. As the INREDA spot normally runs on 12V DC, R2 is placed in series with the potentiometer to limit the maximum voltage coming from the transistor Q1. The LED array is connected via J2 to J1 on the Brightfield Control Box.
-</td> <!--description-->
-<td><img src="images/miCube_components/LED-lid-1.jpg" class="fancybox" id=a2></td> <!--image-->
-<td rowspan=4>-</td> <!--price-->
-</tr>
-<tr class="homemade">
-<td style="background: #eee;"><img src="images/miCube_components/LED-lid-3.jpg" class="fancybox" id=a2></td> <!--image-->
-</tr>
-<tr class="homemade">
-<td style="background: #eee;"><img src="images/miCube_components/LED-lid-4.jpg" class="fancybox" id=a2></td> <!--image-->
-</tr>
-<tr class="homemade">
-<td style="background: #eee;"><img src="images/miCube_components/LED-lid-2.jpg" class="fancybox" id=a2></td> <!--image-->
-</tr>
-<tr class="homemade">
-<td>-</td> <!--id-->
-<td id="fancyboxtitle_a4">Top Cover alternative</td> <!--title-->
-<td><div class="discTitle">CNC milled - <a href="https://github.com/HohlbeinLab/HohlbeinLab.github.io/blob/master/miCube/STL%20files/a3%20-%20Top%20cover%20fixed.STL">STL file</a></div>Alternative for the normal Top Cover (nr 4). Does only hold the Z-piezo, without the XY stage.</td> <!--description-->
-<td><img src="images/miCube_components/Top-cover-solid.jpg" class="fancybox" id=a3></td> <!--image-->
-<td>€500</td> <!--price-->
-</tr><tr class="homemade">
-<td>-</td> <!--id-->
-<td id="fancyboxtitle_a3">Breadboard</td> <!--title-->
-<td><div class="discTitle">Thorlabs - <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=MB3060/M">MB3060/M</a></div>Aluminum breadboard, 300 x 600 mm. All components (except the laser box) are placed on this breadboard.</td> <!--description-->
-<td><img src="https://www.thorlabs.de/images/large/6276-lrg.jpg" class="fancybox" id=a4></td> <!--image-->
-<td>€240</td> <!--price-->
-</tr>
-</table>
+ <table>
+   <thead>
+     <tr>
+       <th><strong>Part Name</strong></th>
+       <th><strong>Company</strong></th>
+       <th><strong>Part Number</strong></th>
+       <th><strong>Quantity</strong></th>
+       <th><strong>Implementation</strong></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>Rod Adapter for Ø6 mm ER Rods, 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA-P4">ERSCA-P4</a></td>
+       <td>2</td>
+       <td>To screw in rods between body and DM2 mount</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage XY Translator for Ø1” Optics</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CXY1">CXY1</a></td>
+       <td>3</td>
+       <td>Translation mounts for L6, L7 &amp; L8</td>
+     </tr>
+     <tr>
+       <td>Achromatic doublet f=100 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-100-A-ML">AC254-100-A-ML</a></td>
+       <td>1</td>
+       <td>L6</td>
+     </tr>
+     <tr>
+       <td>Achromatic doublet f=80 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-080-A-ML">AC254-080-A-ML</a></td>
+       <td>1</td>
+       <td>L7</td>
+     </tr>
 
+     <tr>
+       <td>30 mm Cage Cube with Dichroic Filter Mount (Metric)</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CM1-DCH/M">CM1-DCH/M</a></td>
+       <td>1</td>
+       <td><strong>25 </strong>Mount for DM2</td>
+     </tr>
+     <tr>
+       <td>Ø1” Pedestal Pillar Post, 1/4”-20 Taps, L = 0.5”</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS05P">RS05P</a></td>
+       <td>1</td>
+       <td>Post mount for DC3 mount</td>
+     </tr>
+     <tr>
+       <td>Ø25 mm Post Spacer, Thickness = 3 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS3M">RS3M</a></td>
+       <td>1</td>
+       <td>3mm non threaded spacer for Di 3</td>
+     </tr>
+     <tr>
+       <td>Ø25.0 mm Pedestal Pillar Post, M6 Taps, L = 19 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=RS075P/M">RS075P/M</a></td>
+       <td>1</td>
+       <td>Spacer for DC3 mount</td>
+     </tr>
+     <tr>
+       <td>Kinematic Fluorescence Filter Cube 30 mm Cage Compatible M6 Tapped Holes</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1/M">DFM1/M</a></td>
+       <td>1</td>
+       <td>Mount for DC3, F2 &amp; F3</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube 0.50” Thread Depth One Retaining Ring Included</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L05">SM1L05</a></td>
+       <td>4</td>
+       <td><strong>37 </strong>Mount for F1, for lens bellow attachement on APD covers</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube 0.30” Thread Depth One Retaining Ring Included</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03">SM1L03</a></td>
+       <td>3</td>
+       <td><strong>11, 22, 31, 40</strong>For tubing into microscope body</td>
+     </tr>
+     <tr>
+       <td>SM1 (1.035”-40) Coupler External Threads 1” Long</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1T10">SM1T10</a></td>
+       <td>1</td>
+       <td>Coupling into microscope body</td>
+     </tr>
+     <tr>
+       <td>SM1 (1.035”-40) Coupler External Threads 0.5” Long</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1T2">SM1T2</a></td>
+       <td>3</td>
+       <td><strong>33, 38 </strong>For coupling L6, L7 &amp; L8 trans mounts onto DM2 &amp; DC3 mounts</td>
+     </tr>
+     <tr>
+       <td>Cage Assembly Rod 1.5” Long Ø6 mm 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5-P4">ER1.5-P4</a></td>
+       <td>1</td>
+       <td>DM2 to body rods</td>
+     </tr>
+     <tr>
+       <td>Externally SM1-Threaded End Cap</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2">SM1CP2</a></td>
+       <td>3</td>
+       <td>To cover DM2 and DC3 mount’sspare beam ports</td>
+     </tr>
+     <tr>
+       <td>Clamping Fork, 31.5 mm Counterbored Slot, M6 x 1.0 Captive Screw, 5 Pac</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C/M">CF125C/M</a></td>
+       <td>1</td>
+       <td>Clamping fork for DC3 mount</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube Bellows 1.50” to 8.66” Long</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1B3">SM1B3</a></td>
+       <td>3</td>
+       <td>Lens bellows between L6, L7 &amp;L8 and APD covers</td>
+     </tr>
+     <tr>
+       <td>Ø1/2” Post Spacer 8 mm Thick Qty. 5</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=TR8M">TR8M</a></td>
+       <td>1</td>
+       <td>Post spacer for DM2 mount</td>
+     </tr>
+     <tr>
+       <td>Ø12.7 mm Optical Post SS M4 Setscrew M6 Tap L = 30 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=TR30/M">TR30/M</a></td>
+       <td>1</td>
+       <td>Post mount for DM2 mount</td>
+     </tr>
+     <tr>
+       <td>Ø12.7 mm Universal Post Holder Spring-Loaded Locking Thumbscrew L = 30 mm</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH30/M">UPH30/M</a></td>
+       <td>1</td>
+       <td>Post holder for DM2 mount</td>
+     </tr>
+     <tr>
+       <td>Table Clamp L-Shape</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CL5">CL5</a></td>
+       <td>12</td>
+       <td>Clamps for APD mounts</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage Cube Connector</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W-CC">C4W-CC</a></td>
+       <td>1</td>
+       <td>Connector for DM2 &amp; DC3 mounts</td>
+     </tr>
+     <tr>
+       <td>Adapter with External M6 x 1.0 Threads and External 8-32 Threads</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AP6M8E">AP6M8E</a></td>
+       <td>1</td>
+       <td>Adaptor for DC3 posts</td>
+     </tr>
+     <tr>
+       <td>Single photon counting module</td>
+       <td>Excelitas</td>
+       <td>SPCM-AQRH-14</td>
+       <td>2</td>
+       <td>APD0 &amp; APD1</td>
+     </tr>
+   </tbody>
+ </table>
 
-<br>3D printing settings
-<table class="component_list_supplemental">
-<tr>
-<th>id</th>
-<th>Printer</th>
-<th>Material</th>
-<th>Support</th>
-<th>Adhesion</th>
-<th>Layer height (µm)</th>
-<th>Top/Bottom Thickness (mm)</th>
-<th>Wall Thickness (mm)</th>
-<th>Infill %</th></tr>
-<tr><!--Excitation part-->
-<td>13 / 14</td><!--Id-->
-<td>UM2+</td><!--Printer-->
-<td>PLA</td><!--Material-->
-<td>Yes</td><!--Support-->
-<td>Brim (5)</td><!--Adhesion-->
-<td>200</td><!--Layer height-->
-<td>1.0</td><!--TBT-->
-<td>1.2</td><!--Wall thickness-->
-<td>20</td><!--Infill-->
-</tr>
-<tr><!--Tube adapter-->
-<td>26</td><!--Id-->
-<td>UM2+</td><!--Printer-->
-<td>ABS</td><!--Material-->
-<td>Yes</td><!--Support-->
-<td>Brim (5)</td><!--Adhesion-->
-<td>200</td><!--Layer height-->
-<td>0.8</td><!--TBT-->
-<td>0.8</td><!--Wall thickness-->
-<td>20</td><!--Infill-->
-</tr>
-<tr><!--Astig block  -->
-<td>21</td><!--Id-->
-<td>UM2+</td><!--Printer-->
-<td>PLA</td><!--Material-->
-<td>Yes</td><!--Support-->
-<td>Brim (5)</td><!--Adhesion-->
-<td>200</td><!--Layer height-->
-<td>1.0</td><!--TBT-->
-<td>1.6</td><!--Wall thickness-->
-<td>20</td><!--Infill-->
-</tr>
-<tr><!--Lens holder  -->
-<td>23 / 24 / 28</td><!--Id-->
-<td>UM2+</td><!--Printer-->
-<td>PLA</td><!--Material-->
-<td>Yes</td><!--Support-->
-<td>Brim (5)</td><!--Adhesion-->
-<td>200</td><!--Layer height-->
-<td>1.0</td><!--TBT-->
-<td>1.6</td><!--Wall thickness-->
-<td>20</td><!--Infill-->
-</tr>
-<tr><!--Camera mount -->
-<td>20</td><!--Id-->
-<td>UM2+</td><!--Printer-->
-<td>PLA</td><!--Material-->
-<td>Yes</td><!--Support-->
-<td>Brim (5)</td><!--Adhesion-->
-<td>200</td><!--Layer height-->
-<td>0.8</td><!--TBT-->
-<td>0.8</td><!--Wall thickness-->
-<td>20</td><!--Infill-->
-</tr>
-</table>
+ <h1 id="-microscope-body"><a id="body"></a> Microscope Body</h1>
 
-<script type="text/javascript" src=".\javascript\fancybox\jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src=".\javascript\fancybox\jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src=".\javascript\fancybox\jquery.fancybox-1.3.4.js"></script>
-<script type="text/javascript">
-    $(function($){
-        var addToAll = false;
-        var gallery = true;
-        var titlePosition = 'outside';
-        $(addToAll ? 'img' : 'img.fancybox').each(function(){
-            var $this = $(this);
-            //var title = $this.attr('title');
-			/*var $td = $('td.fancyboxtitle');
-            var title = $td.innerHTML;*/
-			var idnr = $this.attr('id');
-			var elementid = 'fancyboxtitle_' + idnr;
-			//var title = document.getElementById(elementid).innerHTML;
-			//elementid = 'fancyboxtitle_30';
-			var title = document.getElementById(elementid).innerHTML;
-            var src = $this.attr('data-big') || $this.attr('src');
-            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
-            $this.wrap(a);
-        });
-        if (gallery)
-            $('a.fancybox').attr('rel', 'fancyboxgallery');
-        $('a.fancybox').fancybox({
-            titlePosition: titlePosition
-        });
-    });
-    $.noConflict();
-</script>
-</section>
+ <table>
+   <thead>
+     <tr>
+       <th><strong>Part Name</strong></th>
+       <th><strong>Company</strong></th>
+       <th><strong>Part Number</strong></th>
+       <th><strong>Quantity</strong></th>
+       <th><strong>Implementation</strong></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>30mm Cage Right angle KM mount with tapped holes</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=KCB1/M">KCB1/M</a></td>
+       <td>1</td>
+       <td><strong>6 </strong>Mount for M3</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage Cube Connector</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W-CC">C4W-CC</a></td>
+       <td>1</td>
+       <td>Connector for  &amp; M3 mounst</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage Cube</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W">C4W</a></td>
+       <td>1</td>
+       <td>Cube for DM1 mount</td>
+     </tr>
+     <tr>
+       <td>Cage-Compatible Rectangular Filter Holder</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=FFM1">FFM1</a></td>
+       <td>1</td>
+       <td>Dichoic clamp for DM1</td>
+     </tr>
+     <tr>
+       <td>XYZ Translator for Ø1/2”</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CXYZ05/M">CXYZ05/M</a></td>
+       <td>1</td>
+       <td>Translation mount for P1P1 mount</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage XY Translator for Ø1” Optics</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CXY1">CXY1</a></td>
+       <td>1</td>
+       <td>Mount for L4</td>
+     </tr>
+     <tr>
+       <td>Cage Assembly Rod, 4” Long, Ø6 mm 4 pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ER4-P4">ER4-P4</a></td>
+       <td>1</td>
+       <td>Rods between M3 mount and body</td>
+     </tr>
+     <tr>
+       <td>Rod Adapter for Ø6 mm ER Rods, 4 Pack</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA-P4">ERSCA-P4</a></td>
+       <td>1</td>
+       <td>Rod attachement between M3 mount and body</td>
+     </tr>
+     <tr>
+       <td>SM1A3 - Adapter with External SM1 Threads and Internal RMS Threads</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A3">SM1A3</a></td>
+       <td>1</td>
+       <td>Pinhole adapter for Newport pinholes</td>
+     </tr>
+     <tr>
+       <td>External SM05 Internal SM01 adadapter</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A1">SM1A1</a></td>
+       <td>1</td>
+       <td>Pinhole adapter for Newport pinholes</td>
+     </tr>
+     <tr>
+       <td>Externally SM1-Threaded End Cap</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2">SM1CP2</a></td>
+       <td>1</td>
+       <td>Cap for spare port in DM1 mount</td>
+     </tr>
+     <tr>
+       <td>SM1 Lens Tube 0.30” Thread Depth One Retaining Ring Included</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03">SM1L03</a></td>
+       <td>2</td>
+       <td>Lens tubes for L4 &amp; L5</td>
+     </tr>
+     <tr>
+       <td>30 mm Cage Cube Precision Kimematic Rotation Platform (Metric)</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=B4CRP/M">B4CRP/M</a></td>
+       <td>1</td>
+       <td>Presision mount for DM1</td>
+     </tr>
+     <tr>
+       <td>Adapter with External SM1 Threads and Internal M25 x 0.75 Threads</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12">SM1A12</a></td>
+       <td>1</td>
+       <td>FOC bushing adaptor</td>
+     </tr>
+     <tr>
+       <td>RAR Lens PCX 25.4x50 Long Wave</td>
+       <td>Edmond Optics</td>
+       <td>34340</td>
+       <td>2</td>
+       <td>Lenses L4 &amp; L5</td>
+     </tr>
+     <tr>
+       <td>4-40 Stainless Steel Cap Screw, 3/8” Long, Pack of 50</td>
+       <td>Thorlabs</td>
+       <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=SH4S038">SH4S038</a></td>
+       <td>1</td>
+       <td>Screws for attaching DM1 mount to body</td>
+     </tr>
+     <tr>
+       <td>Mounted Pinhole, 50 µm Aperture</td>
+       <td>Newport</td>
+       <td>PNH-50</td>
+       <td>1</td>
+       <td>Pinhole at position P1</td>
+     </tr>
+
+     <tr>
+       <td>Piezoconcept LT2.100</td>
+       <td>Piezoconcept</td>
+       <td>N/A</td>
+       <td>1</td>
+       <td>xy nanostage</td>
+     </tr>
+     <tr>
+       <td>Piezoconcept FOC300</td>
+       <td>Piezoconcept</td>
+       <td>N/A</td>
+       <td>1</td>
+       <td>z nanostage</td>
+     </tr>
+     <tr>
+       <td>SemRock: 350 - 1100 nm MaxMirror® ultrabroadband mirror</td>
+       <td>Semrock</td>
+       <td>MM3-311-t6-25.4</td>
+       <td>1</td>
+       <td>M3</td>
+     </tr>
+     <tr>
+       <td>UPLSAPO60XO/1.35 WD=0.15</td>
+       <td>Olympus</td>
+       <td>N1480700</td>
+       <td>1</td>
+       <td>O1</td>
+     </tr>
+     <tr>
+       <td>IMMOIL-F30CC1-2</td>
+       <td>Olympus</td>
+       <td>N5218700</td>
+       <td>1</td>
+       <td>O1 Objective Oil</td>
+     </tr>
+   </tbody>
+ </table>
+
+ <h1 id="-Wavelength dependent components"><a id="wav"></a> Wavelength Dependent Components</h1>
+
+ <table>
+   <thead>
+     <tr>
+       <th><strong>Part Name</strong></th>
+       <th><strong>Company</strong></th>
+       <th><strong>Part Number</strong></th>
+       <th><strong>Quantity</strong></th>
+       <th><strong>Implementation</strong></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>Omicron LightHUB®-2 with 515nm 80mW, and 638nm 100mW</td>
+       <td>Omicron</td>
+       <td><a href="https://www.omicron-laser.de/english/light-engines/lighthub-laser-combiner/lighthub-laser-combiner.html">LightHUB-2</a></td>
+       <td>1</td>
+       <td>Laser</td>
+     </tr>
+     <tr>
+       <td>Excitation Dichroic</td>
+       <td>Chroma</td>
+       <td><a href="https://www.chroma.com/products/parts/zt532-640rpc">ZT532/640rpc</a></td>
+       <td>1</td>
+       <td>DM1</td>
+     </tr>
+     <tr>
+       <td>Emission Dichroic</td>
+       <td>Chroma</td>
+       <td><a href="https://www.chroma.com/products/custom-inventory/nc395323-t640lpxr">NC395323 - T640lpxr</a></td>
+       <td>1</td>
+       <td>DM2</td>
+     </tr>
+     <tr>
+       <td>Donor Emission Filter</td>
+       <td>Semrock</td>
+       <td><a href="https://www.semrock.com/FilterDetails.aspx?id=FF01-571/72-25">FF01-571/72-25</a></td>
+       <td>1</td>
+       <td>F1</td>
+     </tr>
+     <tr>
+       <td>Acceptor Emission Filter</td>
+       <td>Semrock</td>
+       <td><a href="https://www.semrock.com/FilterDetails.aspx?id=FF01-679/41-25">FF01-679/41-25</a></td>
+       <td>1</td>
+       <td>F2</td>
+     </tr>
+   </tbody>
+ </table>
+ <figure style="max-width:1000px;">
+ <img src="images/opticspectra.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+ <figcaption>
+ <strong>A. </strong>Graph showing the absorbance spectra of two typical fluorophores used with the smfBox, the transmission spectrum of the excitation dichroic which reflects the lasers (shown with dotted lines) into the sample, but permits light emitted from the sample.
+  <strong>B. </strong>Emission spectra of the same dyes (dark lines), with the filters used to clean up the emission (dotted lines). The spectra of the final light permitted to the APD's is shown in solid blocks. In yellow is the donor emission which reaches the acceptor APD.
+
+ </figcaption></figure>
+<br>On casual inspection of the above graph it may appear that greater signal from the donor could be acquired with a longer wavelength bandpass filter. It is worth noting that whilst this is true, it would also permit emission of the raman scatter from the 515 laser, so the bandpass filter used was selected specifically to remove this scatter and lower background.
+       </section>
 <br><footer><script src="footer.js"></script></footer>
  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 </body>
 </html>
- 

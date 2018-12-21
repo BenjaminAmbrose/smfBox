@@ -1,0 +1,10 @@
+Acquistion time per file (s): 1800
+Donor Laser Intensity (%): 30.000000
+Acceptor Laser Intensity (%): 10.000000
+Users: Benjamin Ambrose
+Approximate Fluorophore Concentration: 100pM
+Sample details: Ben
+Donor Label: Atto550
+Acceptor Label: Atto647N
+Buffer: NatMethsBuffer
+Notes: Ben

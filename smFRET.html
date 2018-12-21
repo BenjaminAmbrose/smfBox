@@ -1,0 +1,129 @@
+<!doctype html>
+<!--
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="smfBox">
+    <meta name="citation_author" content="Craggs Lab">
+    <meta name="citation_publication_date" content="[insert publicaton date here]">
+    <title>smfBox - Craggs Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/fancybox.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+    }
+</style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!--
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+ <section>
+
+<h1 id="Single-Molecule FRET">Single-Molecule FRET</h1>
+<br>
+<p>
+smFRET is a powerful biophysical technique which can reveal spatial information about biomolecules in a way which is sensitive to both dynamic and static heterogeneity between subpopulations within the same sample. It can measure kinetics of conformational changes at equilibrium with no need for synchronisation, and can measure absolute distances for infering precise structural information.
+<br>
+
+
+</p>
+
+
+ <h1 id="Förster Resonance Energy Transfer"><a id="body"></a>Förster Resonance Energy Transfer</h1>
+ <ul>
+   <figure style="max-width:1180px;">
+   <img src="images/smfretfig1.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+   <figcaption>
+    <strong>Fig 1a.</strong> Jablonski-Perrin diagram of Förster resonance energy transfer. Upon excitation and vibrational
+relaxation, the donor excited state can decay either through fluorescence or through resonance energy transfer to
+the acceptor. The acceptor then fluoresces, but only after also undergoing vibrational relaxation, which further
+reduces the energy of the emitted photon. <strong>b.</strong> Equation giving the relationship between efficiency of transfer and
+distance, r. R0 is the Förster radius which is characteristic of any given fluorophore pair. <strong>1.</strong> Graph showing relationship between efficiency and distance.
+
+</figcaption></figure>
+   <br>
+   FRET is the transfer of excitation energy from a short wavelength fluorophore to a long wavelength fluorophore. The transfer has a strong distance dependence in the 3-10 nm range
+   and so is often exploited for studying biomolecules. This is typically used to study <em>binary</em> on/off processes at the ensemble level, such as cleaving, binding, opening etc.
+  </ul>
+ <h1 id="Confocal Single-Molecule Detection and ALEX"><a id="Confocal Single-Molecule Detection and ALEX"></a>Confocal Single-Molecule Detection and ALEX</h1>
+ <ul>
+   <figure style="max-width:1080px;">
+   <img src="images/smfretfig2.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+   <figcaption>
+     <strong>Fig 2a. </strong>Single molecules diffuse in and out of a confocal volume of approximately 1 μm<sup>3</sup> constructed by focusing the lasers into a diffraction limited spot and using lenses and a pinhole to select light in a thin focal plane. Alternating laser excitation (ALEX) 20,000 times a second between the donor (green) and acceptor (red) allows excitation of either dye multiple times per molecule as it transits the confocal volume. <strong>b</strong>. A typical time trace for an smFRET experiment, as per C, green emission under green excitation is shown in green (DexDem), red emission under green excitation shown in red, and red emission under red excitation is shown in purple. Encircled bursts from left to right are acceptor only, donor only, and doubly labelled. <strong>c. </strong>Equations for E and S. E* is the apparent FRET efficiency (see next section), it is a ratiometric measure which scales with distance. S, stoichiometry, is a measure of the presence of either dye, which can be assessed from the acceptor excitation of ALEX. <strong>d. </strong> A 2D ES histogram showing dye stoichiometry against FRET efficiency. Donor only molecules appear with low E* but high S, and acceptor only molecules appear with low S. Doubly labelled molecules appear with intermediate S.
+   </figcaption></figure>
+   <br>
+smFRET techniques typically achieve the high signal to noise ration needed to detect single molecules by using a reduced detection volume. This can be done using total internal reflection (TIRFM) for immobilised molecules, or using a diffraction limited spot for freely diffusing molecules as in the smfBox. By alternating the excitation laser between donor and acceptorwavelegths, not only can FRET efficiency be measured (under donor excitation), but apparent dye stoichometry can also be accessed. In this way, a low FRET efficiency molecule can easily be distinguished from a donor in the absence of an acceptor, which may arise from incomplete labelling or photobleaching.
+ </ul>
+ <h1 id="Accurate FRET"><a id="Accurate FRET"></a>Accurate FRET</h1>
+ <ul>
+   <figure style="max-width:1976px;">
+   <img src="images/smfretfig3.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+   <figcaption>
+     <strong>Fig 3.</strong> Schematic of how accurate FRET works. <strong>a.</strong> The ideal situation; the donor is excited by a laser and emission is separately detected from both the donor and acceptor with equal efficiency. <strong>b.</strong> The problem; the acceptor can be directly excited by the laser due to the shorter wavelength tail of its absorption spectrum and the donor can leak emission into the acceptor detection channel due to the longer wavelength tail of its fluorescence spectrum. Furthermore, detection efficiencies and quantum yields are not equal. <strong>c.</strong> The solution; in addition to exciting the donor, the acceptor is also excited (at a longer wavelength) to distinguish the presence of either dye and gain access to comparable quantities to calculate correction factors. The amount of direct excitation of the acceptor with the donor excitation laser is corrected for by Delta. Beta relates the quantity of excitation of each dye by its corresponding laser (dependent on the relative excitation efficiencies and laser powers). Gamma relates the relative emission and subsequent detection efficiencies of each dye. Αlpha corrects for the emission of the donor into the acceptor channel. </figcaption>
+
+   <br>
+   Amongst the many applications of smFRET is finding <em>Accurate</em> FRET efficiency for absolute distance determination. For reasons shown in 3b, the equation for E in 2c does not give true FRET efficiency. However the use of an additional laser for acceptor excitation as in ALEX gives access to sufficient comparative parameters to correct E.
+   <br>
+   As shown in <strong>Fig 4</strong>, a recent worldwide benchmarking study has shown this method of absolute FRET determination to be both precise and accurate, and just as possible with the smfBox as any other microscope.
+<br>
+  <figure style="max-width:477px;">
+   <img src="images/smfretfig4.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+   <figcaption>
+     <strong>Fig 4. </strong> Fully corrected FRET efficiency histograms of three doubly labelled DNA standards (models shown) measured using our microscope (grey). Vertical black lines and curves show Gaussian fits of data from our microscope, red crosses show results from 20 labs as part of a world-wide benchmarking study.
+      </figcaption></figure>
+      <h1 id="References"><a id="References"></a>References</h1>
+      <li> Förster, T. Zwischenmolekulare Energiewanderung und
+Fluoreszenz. Ann. Phys. 1948, 437, 55−75</li>
+      <li> Lee, N. K.; Kapanidis, A. N.; Wang, Y.; Michalet, X.;
+Mukhopadhyay, J.; Ebright, R. H.; Weiss, S. Accurate FRET
+Measurements within Single Diffusing Biomolecules Using Alternating-Laser
+Excitation. Biophys. J. 2005, 88, 2939−53<br>
+      <li> Hellenkamp, B.; Schmid, S.; Doroshenko, O.; Opanasyuk, O.;
+Kühnemuth, R.; Adariani, S. R.; Ambrose, B.; Aznauryan, M.; Barth,
+A.; Birkedal, V.; et al. Precision and Accuracy of Single-Molecule
+FRET Measurementsa Multi-Laboratory Benchmark Study. Nat.
+Methods 2018, 15, 669−676</li>
+</section>
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>

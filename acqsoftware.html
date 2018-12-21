@@ -1,0 +1,116 @@
+<!doctype html>
+<!--
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="smfBox">
+    <meta name="citation_author" content="Craggs Lab">
+    <meta name="citation_publication_date" content="[insert publicaton date here]">
+    <title>smfBox - Craggs Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/fancybox.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+    }
+</style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!--
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+ <section>
+
+<h1 id="Operational Software">Operational Software</h1>
+<br>
+<p>
+To operate the smfBox, software is required to operate the nanostage for focussing the confocal spot into the sample, and for controlling the ALEX cycle, and saving the incoming data from the APD's. Additionally, a simple tool which displays a line plot of incoming light intensity onto the detectirs is useful for general alignment purposes.
+<br>
+For all of these we provide labview based executables which can be downloaded from our github <a href="https://github.com/BenjaminAmbrose/smfBox" target="_self">here</a>
+<br>
+For these to work you will need to install the following DLL's:
+<br>
+<a href="http://www.ni.com/download/labview-run-time-engine-2016/6067/en/" target="_self">LabVIEW runtime 2016 64 bit</a>
+<br>
+<a href="http://www.ni.com/download/ni-visa-run-time-engine-16.0/6188/en/" target="_self">VISA runtime engine 16.0 64 bit</a>
+<br>
+<a href="http://www.ni.com/en-gb/support/downloads/drivers/download.ni-daqmx.html#288254" target="_self">NI-DAQmx 16.0 64 bit</a>
+</p>
+
+<h1 id="Alignment Tool">Alignment Tool</h1>
+<p>
+  <figure style="max-width:1225px;">
+  <img src="images/alignmenttool.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+  <br>
+The alignment tool will show incoming light in photons per millisecond on either APD without alternating the laser or plotting histograms. This means it can display a much higher incoming photon count without crashing. To align the emission pathway, place a fluorescent sample (~1 uM) on the coverslip which will emit in both channels when excited with the donor excitation laser (we use free cy3B), then maximise the emission intensity reported by iteratively adjusting the positions of the APD lenses (L6 and L7), the pinhole, and if needed M3 and L4.</p>
+
+ <h1 id="Focussing Software"><a id="body"></a>Focussing Software</h1>
+ <ul>
+   <figure style="max-width:1225px;">
+   <img src="images/focsoftware.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+   <br>
+   The focussing software controls the z-position of the stage and shows the CCD camera view of the backreflection of your sampple, which allows you to focus the confocal spot into the sample.
+   <br>
+   To operate, first place a drop of liquid on a coverslip on the objective. With either of the lasers on, move the slider for the z-position up until the back reflection shrinks to it's smallest point. Then move slightly further up (~20  μm) so that the back reflection enlarges again. The confocal spot is now focused into the sample.
+  </ul>
+ <h1 id="Acquisition Software"><a id="Acquisition Software"></a>Acquisition Software</h1>
+ <ul>
+   <figure style="max-width:1043px;">
+   <img src="images/acqsoftware.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+   The acquisition software controls the lasers and APD's, and gives a live view of incoming smFRET data as well as creating the files needed for more in-depth analysis later.
+   The first time you run the acquisition software you will need to go to the NI card settings tab and use the drop down menus to select your NI card information, and the com ports each laser and APD are connected to.
+   <br><br>
+   <ul style="list-style-type:none">
+   <li>1. Labiew start button which begins ALEX and visualisation</li>
+   <li>2. Live time trace. Photons arriving at APD0 (donor) shown in green, and for ADP1 (acceptor) shown in red for photons under donor excitation and yellow for photons under acceptor excitation</li>
+   <li>3. Controls for ALEX, saving, and stopping. When you are ready to begin saving an acquisition, press the save data toggle during visualisation</li>
+   <li>4. ALEX controls. ALEX period controls the length of one full green-red alternation. The duty cycle boxes describe the amount of time each laser is off, then on, then off again for. This means that for the green laser to come on immediately at the beginning of the duty cycle, the first OFF box must be zero. Whilst this formulation may initially seem counter intuitive, it allows for a far greater degree of control over the waveform of each laser duty cycle than simply describing Gon/Goff/Ron/Roff. This information is written into the metadata file, and pulled back out during file conversion to assign photons to channels.</li>
+   <li>5. Location and name of saved files. You can set a max file size smaller than the experiment length and it will save as multiple files.</li>
+   <li>6. Metadata typed here will be written into the meta data file, it will not affect the nature of the data itself.</li>
+   <li>7. The visualisation control boxes affect the live 2D ES histogram on the bottom right. This histogram is built crudely and should not be used for rigorous data analysis, as it simply plots millisecond time bins exceeding the stated thresholds, rather than performing a full burst search. </li>
+   <li>8. Controls for the live data visualisation. These do not affect the final saved data, only the live display.</li>
+   </ul>
+<br> Under normal operation; a user will typically place a sample on the scope, then press play (1) to check the quality/concentration before acquisition. If the sample needs to be changed again, press the stop button (3) before opening the lid of the smfBox to prevent ambient light from flooding the APD's. When happy with the sample, choose acquisition length and save location in (5), add metadata in (6), then press "Save Data" to begin the acquisition.
+<br> The diagnostics tab can be used to determine any problems with the software or hardware, and the photon distribution tab will give a live histogram of when photons have been detected with respect to the ALEX period. This can be a useful diagnostic of whether the lasers are being controlled properly without having to create a file for analysis first.
+ </ul>
+</section>
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>

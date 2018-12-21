@@ -1,0 +1,109 @@
+<!doctype html>
+<!--
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="smfBox">
+    <meta name="citation_author" content="Craggs Lab">
+    <meta name="citation_publication_date" content="[insert publicaton date here]">
+    <title>smfBox - Craggs Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/fancybox.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+    }
+</style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!--
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+ <section>
+
+ <h1 id="How to Build the smfBox">How to Build the smfBox</h1>
+ <ul>
+<br>
+ <p>
+
+   The construction can be divided into three sections:</p>
+   <li><a href="#box">The box</a></li>
+   <li><a href="#optics">Optics</a></li>
+   <li><a href="#wiring">Wiring</a></li>
+ </ul>
+
+ <h1 id="box"><a id="box"></a>The Box</h1>
+
+ <br>
+<p>[insert instructions on how to build the box out of bits of aluminium]
+  [link to cad files]
+</p>
+
+ <h1 id="optics"><a id="optics"></a> Optics</h1>
+
+  <br>
+  <p>Assembly of the scope optics occurrs in three modular stages: <p/>
+<ul style="list-style-type:none">
+<li>1. Cube attached to the table</li>
+<li>2. Excitation pathway erected and aligned to the centre and flat on Di1. The centre can be found by placing a mirror behind Di1 to reflect the bleed-through of the dichroic. This creates a cavity that the beam bounces between
+whilst bleeding through each time. If the reflection of the beam hitting the dichroics is aligned with the beam
+hitting the dichroic then the beam must be flat and centred.</li>
+<li>3. The Di1 is aligned to send the beam perpendicular to the plane of the optical table (centred on the objective’s
+aperture).This is checked by extending 10” rods up from the Di1 mount and mounting two frosted glass apertures
+on the rods at different heights.</li>
+<li>4. Confocal lenses and M3 are aligned to be flat and give a collimated beam.</li>
+<li>5. Pinhole is coarsely aligned using a power meter (looking for peak power). The pinhole should be removed again before building the rest of the emission pathway.</li>
+<li>6. Erection of the emission pathway and coarse alignment of the APDs.</li>
+<li>7. Pinhole insertion and fine alignment using the APDs, via LabView alignment tool (looking for peak photon count)</li>
+</ul>
+<h1 id="wiring"><a id="wiring"></a> Wiring</h1>
+<figure style="max-width:1428px;">
+<img src="images/wiring.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+<figcaption>
+ <strong></strong> Wiring diagram
+ </figcaption></figure>
+ <br>
+ <p>[insert text about wiring diagram]
+ </p>
+
+       </section>
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
