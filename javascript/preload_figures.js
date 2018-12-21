@@ -11,7 +11,7 @@ var images = [];
 function loadExplodedImagesEx() {
     for (var i = 0; i < 45; i++) {
         images[i] = new Image();
-		var imsrc = '/images/Expath/Explode_Excitation_Path_smfScope_Final_{i}.png';
+		var imsrc = 'smfBox/images/Expath/Explode_Excitation_Path_smfScope_Final_{i}.png';
 		images[i].src = imsrc;
     }
 }
