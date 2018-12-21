@@ -9,7 +9,7 @@ function update_figure_exploded() {
 
 function update_figure_exploded_ex() {
   var period = document.getElementById("Figure_exploded_period_slider_ex").value;
-  var filename = "/images/expath/explode_excitation_path_smfscope_final_" + period + ".png";
+  var filename = "/images/Expath/Explode_Excitation_Path_smfScope_Final_" + period + ".png";
   var image = document.getElementById("Figure_exploded_image_ex");
   image.src = filename;
 }
