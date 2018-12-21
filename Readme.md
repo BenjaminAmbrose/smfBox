@@ -1,1 +1,1 @@
-Home of the smfBox GithubPages documents. See the site in action on https://benjaminambrose.github.io/smfBox/. 
+Home of the miCube GithubPages documents. See the site in action on https://hohlbeinlab.github.io/miCube/index.html. 

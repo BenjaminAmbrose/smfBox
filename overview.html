@@ -1,0 +1,142 @@
+<!doctype html>
+<!--
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="smfBox">
+    <meta name="citation_author" content="Craggs Lab">
+    <meta name="citation_publication_date" content="[insert publicaton date here]">
+    <title>smfBox - Craggs Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/fancybox.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+    }
+</style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!--
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+ <section>
+
+ <h1 id="Hardware Overview of the smfBox">Hardware Overview of the smfBox</h1>
+ <figure style="max-width:559px;">
+<img src="images/2D_schematic.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+<figcaption>
+<strong>Fig 1</strong>: 2D Schematic of the smfBox showing the Excitation pathway, box, and emission pathway
+</figcaption></figure>
+ <ul>
+<br>
+ <p>
+
+   The smfBox can be divided into three sections:</p>
+   <li><a href="#excit">Excitation Pathway</a></li>
+   <li><a href="#body">Microscope Body</a></li>
+   <li><a href="#emiss">Emission Pathway</a></li>
+ </ul>
+
+ <h1 id="-excitation-pathway"><a id="excit"></a> Excitation Pathway</h1>
+ <figure id="Figure_exploded_ex" style="max-width:1082px;">
+ <img src="./images/expath/explode_excitation_path_smfscope_final_0.png"
+  alt="Figure Exploded_ex" style="padding-left:7%; padding-right:7%; width:86%;" id="Figure_exploded_image_ex" onload="loadExplodedImagesEx()" >
+  <table class="figure_controls">
+    <tr>
+    <td><div class="slidecontainer">
+    <input type="range" min="0" max="54" value="0" class="slider" id="Figure_exploded_period_slider_ex" oninput="update_figure_exploded_ex()">
+    </td>
+    </tr>
+  <tr>
+  </table>
+  <figcaption><strong>Fig2. Exploded view of the excitation path, scroll to the end to see labelled components</strong></figcaption>
+ <br>
+  <figure style="max-width:740px;">
+ <img src="images/exparts.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+</figure>
+<p>The excitation pathway is built from a precision iris, two kinematically mounted mirrors, a beam splitter, a photodetector, and a ccd camera. Optomechanical components are mounted on non-height adjustable posts with cage-rods between them to ensure robustness of alignment. After being trimmed by the iris, the mirrors M1 and M2 give complete axial stabilisation of the beam before entering the box. The beam splitter BS1 on the first pass (blue line) reflects 50% of light through a lens (L3) onto a nanosecond rise time photodetector for calibration of laser alternation and power, whilst permitting the other 50% through to the cube. Backscattered light from the sample (green beam) is reflected off the back of the beam splitter, through a lens (L2) onto a CCD camera which is used for focusing the objective. One potential problem can arise from reflections off the photodetector passing through the beam splitter onto the CCD (dashed red line), this is averted by mounting the photodetector at a slight tilt.
+<br><br>
+The photodetector proved a useful diagnostic tool during construction of the scope for calibrating ALEX period and laserpowers, however with the APD's set up this can now be done using the ALEX tab in the acquisition labview software. The photodector is not at all required for normal acquisition of data so it is worth considering whether you require this in your set up.
+</p>
+
+ <h1 id="-microscope-body"><a id="body"></a> Microscope Body</h1>
+ <figure id="Figure_exploded_box" style="max-width:1082px;">
+ <img src="./images/final_explode_images_microscope_body_smfscope/final_explode_images_microscope_body_0.png"
+  alt="Figure Exploded_box" style="padding-left:7%; padding-right:7%; width:86%;" id="Figure_exploded_image_box" onload="loadExplodedImagesBox()" >
+  <table class="figure_controls">
+    <tr>
+    <td><div class="slidecontainer">
+    <input type="range" min="0" max="54" value="0" class="slider" id="Figure_exploded_period_slider_box" oninput="update_figure_exploded_box()">
+    </td>
+    </tr>
+  <tr>
+  </table>
+  <figcaption><strong>Fig3. Exploded view of the box, scroll to the end to see labelled components</strong></figcaption>
+
+
+  <figure style="max-width:732px;">
+  <br><img src="images/boxparts.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
+  </figure>
+  <p>Upon entering the box, lasers are reflected by the excitation dichroic DM1 into the objective and sample. The objective can be moved through z by a nanostage, and the sample can be positioned in xy if necessary (allowing for potential applications in confocal scanning techniques). Emitted light from the sample then passes back through the objective and is permitted through DM1, and onto a hard mirror M3. Lens L4 then focuses emitted light through a pinhole P1 to remove out of focus light before reaching a second lens L5. L4 can be adjusted in xy, P1 has full adjustment in xyz and L5 is static.
+  </p>
+<h1 id="-emission-pathway"><a id="emiss"></a> Emission Pathway</h1>
+<figure id="Figure_exploded" style="max-width:1528px;">
+<img src="./images/emission_path_explode_images/explode_emission_path_smfScope_Final_0.png"
+ alt="Figure Exploded" style="padding-left:7%; padding-right:7%; width:86%;" id="Figure_exploded_image" onload="loadExplodedImages()" >
+
+<table class="figure_controls">
+  <tr>
+  <td><div class="slidecontainer">
+  <input type="range" min="0" max="40" value="0" class="slider" id="Figure_exploded_period_slider" oninput="update_figure_exploded()">
+  </td>
+  </tr>
+<tr>
+</table>
+<figcaption><strong>Fig4. Exploded view of the emission path, scroll to the end to see labelled components</strong></figcaption>
+</figure><p></p>
+<figure style="max-width:710px;">
+<img src="images/emparts.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+</figure>
+<p>The first dichroic mirror in the emission pathway, DM2, reflects light below 640 nm, sending donor emission into the path to APD0 whilst permitting acceptor photons through to APD1. In both cases a band-pass filter (F1, F2) is used to clean up laser bleed-through and Raman scatter from the emission, and a lens (L6, L7) is used to focus the beam onto the APD.
+</p>
+</section>
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
