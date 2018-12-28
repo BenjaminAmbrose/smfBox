@@ -63,34 +63,35 @@ The real text begins here.
  <p>
 
    The construction can be divided into three sections:</p>
-   <li><a href="#box">The box</a></li>
-   <li><a href="#optics">Optics</a></li>
+   <li><a href="#box">Fabrication of the Cube</a></li>
+   <li><a href="#optics">Main Assembly and Optical Aligment</a></li>
    <li><a href="#wiring">Wiring</a></li>
  </ul>
 
- <h1 id="box"><a id="box"></a>The Box</h1>
+ <h1 id="box"><a id="box"></a>Fabrication of the Cube</h1>
 
  <br>
 <p>The box itself is composed of machined anodized aluminium parts.
   <br>The technical drawings for the aluminium components can be found on our github <a href=https://github.com/BenjaminAmbrose/smfBox/tree/master/Technical%20drawings>Here</a>
 </p>
 
- <h1 id="optics"><a id="optics"></a> Optics</h1>
+ <h1 id="optics"><a id="optics"></a> Main Assembly and Optical Aligment</h1>
 
   <br>
-  <p>Assembly of the scope optics occurrs in three modular stages: <p/>
+  <p>Once the main cube body is attached the optical table the scope can be simultaneously be built and aligned in about two days work. <p/>
 <ul style="list-style-type:none">
-<li>1. Cube attached to the table</li>
-<li>2. Excitation pathway erected and aligned to the centre and flat on Di1. The centre can be found by placing a mirror behind Di1 to reflect the bleed-through of the dichroic. This creates a cavity that the beam bounces between
-whilst bleeding through each time. If the reflection of the beam hitting the dichroics is aligned with the beam
-hitting the dichroic then the beam must be flat and centred.</li>
-<li>3. The Di1 is aligned to send the beam perpendicular to the plane of the optical table (centred on the objective’s
-aperture).This is checked by extending 10” rods up from the Di1 mount and mounting two frosted glass apertures
-on the rods at different heights.</li>
-<li>4. Confocal lenses and M3 are aligned to be flat and give a collimated beam.</li>
-<li>5. Pinhole is coarsely aligned using a power meter (looking for peak power). The pinhole should be removed again before building the rest of the emission pathway.</li>
-<li>6. Erection of the emission pathway and coarse alignment of the APDs.</li>
-<li>7. Pinhole insertion and fine alignment using the APDs, via LabView alignment tool (looking for peak photon count)</li>
+<li>1. Once the main excitation pathway: M1, M2 and BS1 have been mounted they should be connected with 3 of the 4 cage rods and without the lens tubes attached. The initial alignment can be done by aiming the beam to the centre of the Di1 mount port, using a target on one of the dichroic cube’s mount caps. A handy trick to give fine alignment is to rorate Di1 to be 90° to the incoming beam and place a mirror directly behind it. This mirror will reflect the bleed-through of the dichroic, creating a cavity. If beam is flat and correctly aligned coming into the dichroic mount then the reflection of the beam should match the incoming one. </li>
+<li>2. Insert the fourth rod and the lens tubes and repeat the above steps to give fine alignment. </li>
+<li>3. The microscope body is then aligned without insertion of the objective, nanostage or confocal system (L4, L5 and P1): Di1 should then be aligned at 45° to reflect the beam perpendicular to the plane of the optical table (aiming to be centred on the objective’s aperture when inserted). To check this alignment long rods can be extended from the Di1 mount with the top lid of the microscope body removed. Using a set of frosted glass apertures or a large pin-hole and diffuser the alignment can be tuned as the beam should stay in the centre of the both the apertures at a far distance. Adjustment of the pitch of Di1 should correct for any deviations. </li>
+<li>4. Alignment of the confocal system should then be done by inserting a mirror in the position of O1. With the laser power increased the bleed-through should be visible though the dichroic. By using long rods attached to the beam-out port of the microscope body M3 can be aligned to be flat and centred.</li>
+<li>5. The confocal lenses, L4 and L5 can then be positioned by checking the beam is collimated at a long distance. This can be done by measuring the beam waist with a camera or through visual inspection and adjusting the position of the lenses relative to each other. </li>
+<li>6. The pinhole can then be inserted and aligned by using a power meter to track the maximum transmission. </li>
+<li>7. The objective lens can then be inserted and top plate of the box attached. Using a microscope slide with a drop of water the coarse focusing of the objective lense can be found using the methods mentioned in SECTION. </li>
+<li>8. Using an an appropriate dye (Cy3 or Cy5) the pinhole alignment can then be optimised further using a power meter. </li>
+<li>9. If the dye concentration is high enough the excitation pathway can then be coarsely aligned by-eye without the lens bellow attached. For fine alignment, the dye concentration or laser power reduced. The translation stages on the APD lenses (L6 and L7) can then be used with the APD alignment software to get exact alignment. </li>
+<li>10. The lens bellows should then be attached the system is ready for testing. </li>
+
+
 </ul>
 <h1 id="wiring"><a id="wiring"></a> Wiring</h1>
 <figure style="max-width:1428px;">
