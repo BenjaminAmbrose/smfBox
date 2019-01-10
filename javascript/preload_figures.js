@@ -9,7 +9,7 @@ function loadExplodedImages() {
 
 var images = [];
 function loadExplodedImagesEx() {
-    for (var i = 0; i < 45; i++) {
+    for (var i = 0; i < 54; i++) {
         images[i] = new Image();
 		var imsrc = 'images/Expath/Explode_Excitation_Path_smfScope_Final_{i}.png';
 		images[i].src = imsrc;
