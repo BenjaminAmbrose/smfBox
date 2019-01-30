@@ -60,13 +60,13 @@ The real text begins here.
 
  <h1 id="Hardware Overview of the smfBox">Hardware Overview of the smfBox</h1>
  <figure style="max-width:559px;">
-<img src="images/2D_schematic.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+<img src="images/2D_schematic.png" align="middle" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
 <figcaption>
-<strong>Fig 1</strong>: 2D Schematic of the smfBox showing the Excitation pathway, box, and emission pathway
+<strong>Fig 1</strong>: 2D Schematic of the smfBox showing the Excitation pathway, box, and emission pathway. L = Lens, M = Mirror, BS = Beamsplitter, O = Objective, DM = dichroic mirror, F = Filter, P = Pinhole, APD = Avalanche photodiode, CCD = charge-coupled device (camera).
 </figcaption></figure>
  <ul>
 <br>
- <p>
+
 
    The smfBox can be divided into three sections:</p>
    <li><a href="#excit">Excitation Pathway</a></li>
@@ -75,6 +75,12 @@ The real text begins here.
  </ul>
 
  <h1 id="-excitation-pathway"><a id="excit"></a> Excitation Pathway</h1>
+ <figure style="max-width:700px;">
+ <img src="images/expath.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+ <figcaption><strong>Fig 2: </strong>Path of light in the excitation path. Briefly; in blue, light on the first pass is partially split to the photodetector, but most enters the microscope body. In red is the potential for light reflected off the photodetector to hit the CCD, avoided by mounting at a tilt. In green, backscattered light is directed onto the camera for focussing.</figcaption>
+
+ </figure><br>
+ The excitation pathway is built from a precision iris, two kinematically mounted mirrors, a beam splitter, a photodetector, and a ccd camera. Optomechanical components are mounted on non-height adjustable posts with cage-rods between them to ensure robustness of alignment. After being trimmed by the iris, the mirrors M1 and M2 give complete axial stabilisation of the beam before entering the box. The beam splitter BS1 on the first pass (blue line) reflects 10% of light through a lens (L3) onto a nanosecond rise time photodetector for calibration of laser alternation and power, whilst permitting the other 90% through to the cube. Backscattered light from the sample (green beam) is reflected off the back of the beam splitter, through a lens (L2) onto a CCD camera which is used for focusing the objective. One potential problem can arise from reflections off the photodetector passing through the beam splitter onto the CCD (dashed red line), this is averted by mounting the photodetector at a slight tilt.
  <figure id="Figure_exploded_ex" style="max-width:1082px;">
  <img src="images/Expath/Explode_Excitation_Path_smfScope_Final_0.png"
   alt="Figure Exploded_ex" style="padding-left:7%; padding-right:7%; width:86%;" id="Figure_exploded_image_ex" onload="loadExplodedImagesEx()" >
@@ -86,16 +92,16 @@ The real text begins here.
     </tr>
   <tr>
   </table>
-  <figcaption><strong>Fig2. Exploded view of the excitation path, scroll to the end to see labelled components</strong></figcaption>
+  <figcaption><strong>Fig 2: </strong>Exploded view of the excitation path, scroll to the end to see labelled components</figcaption>
  <br>
   <figure style="max-width:740px;">
+
  <img src="images/exparts.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
+
 </figure>
-<p>The excitation pathway is built from a precision iris, two kinematically mounted mirrors, a beam splitter, a photodetector, and a ccd camera. Optomechanical components are mounted on non-height adjustable posts with cage-rods between them to ensure robustness of alignment. After being trimmed by the iris, the mirrors M1 and M2 give complete axial stabilisation of the beam before entering the box. The beam splitter BS1 on the first pass (blue line) reflects 10% of light through a lens (L3) onto a nanosecond rise time photodetector for calibration of laser alternation and power, whilst permitting the other 90% through to the cube. Backscattered light from the sample (green beam) is reflected off the back of the beam splitter, through a lens (L2) onto a CCD camera which is used for focusing the objective. One potential problem can arise from reflections off the photodetector passing through the beam splitter onto the CCD (dashed red line), this is averted by mounting the photodetector at a slight tilt.
-<br><figure style="max-width:329px;">
-<img src="images/expath.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
-</figure><br>
-The photodetector proved a useful diagnostic tool during construction of the scope for calibrating ALEX period and laserpowers, however with the APD's set up this can now be done using the ALEX tab in the acquisition labview software. The photodector is not at all required for normal acquisition of data so it is worth considering whether you require this in your set up.
+<p>
+<br>
+The photodetector proved a useful diagnostic tool during construction of the scope for calibrating ALEX period and laserpowers, however with the APD's set up this can now be done using the ALEX tab in the acquisition labview software. The photodector is not at all required for normal acquisition of data, so whilst we recommend that you include it due to it's use as a diagnostic, it is worth noting that it is not entirely necessary.
 </p>
 
  <h1 id="-microscope-body"><a id="body"></a> Microscope Body</h1>
@@ -110,14 +116,14 @@ The photodetector proved a useful diagnostic tool during construction of the sco
     </tr>
   <tr>
   </table>
-  <figcaption><strong>Fig3. Exploded view of the box, scroll to the end to see labelled components</strong></figcaption>
+  <figcaption><strong>Fig 3: </strong>Exploded view of the box, scroll to the end to see labelled components</figcaption>
 
 
   <figure style="max-width:732px;">
   <br><img src="images/boxparts.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
   </figure>
-  <p>Upon entering the box, lasers are reflected by the excitation dichroic DM1 into the objective and sample. The objective can be moved through z by a nanostage, and the sample can be positioned in xy if necessary (allowing for potential applications in confocal scanning techniques). Emitted light from the sample then passes back through the objective and is permitted through DM1, and onto a hard mirror M3. Lens L4 then focuses emitted light through a pinhole P1 to remove out of focus light before reaching a second lens L5. L4 can be adjusted in xy, P1 has full adjustment in xyz and L5 is static.
-  </p>
+Upon entering the box, lasers are reflected by the excitation dichroic DM1 into the objective and sample. The objective can be moved through z by a nanostage, and the sample can be positioned in xy if necessary (allowing for potential applications in confocal scanning techniques). Emitted light from the sample then passes back through the objective and is permitted through DM1, and onto a hard mirror M3. Lens L4 then focuses emitted light through a pinhole P1 to remove out of focus light before reaching a second lens L5. L4 can be adjusted in xy, P1 has full adjustment in xyz and L5 is static.
+
 <h1 id="-emission-pathway"><a id="emiss"></a> Emission Pathway</h1>
 <figure id="Figure_exploded" style="max-width:1528px;">
 <img src="images/Emission_Path_Explode_Images/Explode_Emission_Path_smfScope_Final_0.png"
@@ -131,13 +137,13 @@ The photodetector proved a useful diagnostic tool during construction of the sco
   </tr>
 <tr>
 </table>
-<figcaption><strong>Fig4. Exploded view of the emission path, scroll to the end to see labelled components</strong></figcaption>
+<figcaption><strong>Fig 4: </strong>Exploded view of the emission path, scroll to the end to see labelled components</figcaption>
 </figure><p></p>
 <figure style="max-width:710px;">
 <img src="images/emparts.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
 </figure>
-<p>The first dichroic mirror in the emission pathway, DM2, reflects light below 640 nm, sending donor emission into the path to APD0 whilst permitting acceptor photons through to APD1. In both cases a band-pass filter (F1, F2) is used to clean up laser bleed-through and Raman scatter from the emission, and a lens (L6, L7) is used to focus the beam onto the APD.
-</p>
+The first dichroic mirror in the emission pathway, DM2, reflects light below 640 nm, sending donor emission into the path to APD0 whilst permitting acceptor photons through to APD1. In both cases a band-pass filter (F1, F2) is used to clean up laser bleed-through and Raman scatter from the emission, and a lens (L6, L7) is used to focus the beam onto the APD.
+
 </section>
 <br><footer><script src="footer.js"></script></footer>
  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
