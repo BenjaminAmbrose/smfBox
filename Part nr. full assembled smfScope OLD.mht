@@ -1,0 +1,536 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/11634A65/Partnr.fullassembledsmfScope.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link rel=3DFile-List href=3D"Partnr.fullassembledsmfScope_files/filelist.x=
+ml">
+<style id=3D"Part nr. full assembled smfScope_2266_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl152266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl632266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl642266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	background:#E7E6E6;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl652266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	background:#E7E6E6;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl662266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	background:#E7E6E6;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl672266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl682266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl692266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#DDEBF7;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl702266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:bottom;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl712266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl722266
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	background:#C6E0B4;
+	mso-pattern:black none;
+	white-space:nowrap;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Excel's Publish as=
+ Web
+Page wizard.-->
+<!--If the same item is republished from Excel, all information between the=
+ DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"Part nr. full assembled smfScope_2266" align=3Dcenter
+x:publishsource=3D"Excel">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D739 style=3D'bord=
+er-collapse:
+ collapse;table-layout:fixed;width:555pt'>
+ <col width=3D42 style=3D'mso-width-source:userset;mso-width-alt:1536;width=
+:32pt'>
+ <col width=3D77 style=3D'mso-width-source:userset;mso-width-alt:2816;width=
+:58pt'>
+ <col width=3D274 style=3D'mso-width-source:userset;mso-width-alt:10020;wid=
+th:206pt'>
+ <col width=3D40 style=3D'mso-width-source:userset;mso-width-alt:1462;width=
+:30pt'>
+ <col width=3D103 style=3D'mso-width-source:userset;mso-width-alt:3766;widt=
+h:77pt'>
+ <col width=3D203 style=3D'mso-width-source:userset;mso-width-alt:7424;widt=
+h:152pt'>
+ <tr class=3Dxl632266 height=3D15 style=3D'mso-height-source:userset;height=
+:11.25pt'>
+  <td height=3D15 class=3Dxl642266 width=3D42 style=3D'height:11.25pt;width=
+:32pt'>Nr.</td>
+  <td class=3Dxl652266 width=3D77 style=3D'width:58pt'>Product Code</td>
+  <td class=3Dxl662266 width=3D274 style=3D'width:206pt'>Use</td>
+  <td class=3Dxl652266 width=3D40 style=3D'width:30pt'>Nr.</td>
+  <td class=3Dxl652266 width=3D103 style=3D'width:77pt'>Product Code</td>
+  <td class=3Dxl652266 width=3D203 style=3D'width:152pt'>Use</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D17 style=3D'mso-height-source:userset;height=
+:12.75pt'>
+  <td height=3D17 class=3Dxl672266 style=3D'height:12.75pt'>1</td>
+  <td class=3Dxl682266>VC3C/M</td>
+  <td class=3Dxl692266>V-shaped holder collimating lens</td>
+  <td class=3Dxl682266 align=3Dright>27</td>
+  <td class=3Dxl682266>RS10/M</td>
+  <td class=3Dxl682266>Spacer post BS1 (L=3D10mm)</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>2</td>
+  <td class=3Dxl682266>TR50/M</td>
+  <td class=3Dxl692266>Post collimating lens</td>
+  <td class=3Dxl682266 align=3Dright>28</td>
+  <td class=3Dxl682266>RS5/M</td>
+  <td class=3Dxl682266>Post spacer (L=3D5mm)</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>3</td>
+  <td class=3Dxl682266>UPH50/M</td>
+  <td class=3Dxl692266>Post holder collimating lens</td>
+  <td class=3Dxl682266 align=3Dright>29</td>
+  <td class=3Dxl682266>RS1P8E</td>
+  <td class=3Dxl682266>Pedestal Pillar Post BS1 (L=3D1'')</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>4</td>
+  <td class=3Dxl682266>SM1P1</td>
+  <td class=3Dxl692266>Attachment lens to iris</td>
+  <td class=3Dxl682266 align=3Dright>30</td>
+  <td class=3Dxl682266>CF125C/M</td>
+  <td class=3Dxl682266>Clamping fork for BS1 post</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>5</td>
+  <td class=3Dxl682266>SM1D12C</td>
+  <td class=3Dxl692266>Iris</td>
+  <td class=3Dxl682266 align=3Dright>31</td>
+  <td class=3Dxl682266>SM1L03</td>
+  <td class=3Dxl682266>Tube 1 BS1 to DCC</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>6</td>
+  <td class=3Dxl682266>KCB1C/M</td>
+  <td class=3Dxl692266>Right-Angle Kinematic Mirror Mount for M1</td>
+  <td class=3Dxl682266 align=3Dright>32</td>
+  <td class=3Dxl682266>SM1L20C</td>
+  <td class=3Dxl682266>Slotted lens tube for L2</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>7</td>
+  <td class=3Dxl682266>RS50/M</td>
+  <td class=3Dxl692266>Pillar post (L=3D50 mm)</td>
+  <td class=3Dxl682266 align=3Dright>33</td>
+  <td class=3Dxl682266>SM1T2</td>
+  <td class=3Dxl682266>Tube coupler BS1 to DCC</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>8</td>
+  <td class=3Dxl682266>RS5/M</td>
+  <td class=3Dxl692266>Post spacer (L=3D5mm)</td>
+  <td class=3Dxl682266 align=3Dright>34</td>
+  <td class=3Dxl682266>SM1A9</td>
+  <td class=3Dxl682266>Adapter SM1/C-mount BS1 to DCC</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>9</td>
+  <td class=3Dxl682266>RS1.5P/M</td>
+  <td class=3Dxl692266>Pedestal pillar post (L=3D38mm)</td>
+  <td class=3Dxl682266 align=3Dright>35</td>
+  <td class=3Dxl682266>DCC1545M</td>
+  <td class=3Dxl682266>DCC</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>10</td>
+  <td class=3Dxl682266>CF125C/M</td>
+  <td class=3Dxl692266>Clamping fork for M1 post</td>
+  <td class=3Dxl682266 align=3Dright>36</td>
+  <td class=3Dxl682266>SM1L03</td>
+  <td class=3Dxl682266>Tube 1 BS1 to camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>11</td>
+  <td class=3Dxl682266>SM1L03</td>
+  <td class=3Dxl692266>Tube 1 M1 to M2</td>
+  <td class=3Dxl682266 align=3Dright>37</td>
+  <td class=3Dxl682266>SM1L05</td>
+  <td class=3Dxl682266>Tube 2 BS1 to camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>12</td>
+  <td class=3Dxl682266>SM1L10</td>
+  <td class=3Dxl692266>Tube 2 M1 to M2</td>
+  <td class=3Dxl682266 align=3Dright>38</td>
+  <td class=3Dxl682266>SM1T2</td>
+  <td class=3Dxl682266>Tube coupler BS1 to camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>13</td>
+  <td class=3Dxl682266>SM1T20</td>
+  <td class=3Dxl692266>Tube coupler M1 to M2</td>
+  <td class=3Dxl682266 align=3Dright>39</td>
+  <td class=3Dxl682266>SM1L03T</td>
+  <td class=3Dxl682266>Angled tube BS1 to camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>14</td>
+  <td class=3Dxl682266>SM1L10</td>
+  <td class=3Dxl692266>Tube 3 M1 to M2</td>
+  <td class=3Dxl682266 align=3Dright>40</td>
+  <td class=3Dxl682266>SM1L03</td>
+  <td class=3Dxl682266>Tube with L3</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>15</td>
+  <td class=3Dxl682266>SM1L10</td>
+  <td class=3Dxl692266>Tube 4 M1 to M2</td>
+  <td class=3Dxl682266 align=3Dright>41</td>
+  <td class=3Dxl682266>SM1B3</td>
+  <td class=3Dxl682266>Tube Bellow BS1 to camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>16</td>
+  <td class=3Dxl682266>ER6-P4</td>
+  <td class=3Dxl692266>4x rods M1 to M2 (6'')</td>
+  <td class=3Dxl682266 align=3Dright>42</td>
+  <td class=3Dxl682266>DET10A/M</td>
+  <td class=3Dxl682266>Photodetector (Camera)</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>17</td>
+  <td class=3Dxl682266>KCB1C/M</td>
+  <td class=3Dxl692266>Right-Angle Kinematic Mirror Mount for M2</td>
+  <td class=3Dxl682266 align=3Dright>43</td>
+  <td class=3Dxl682266>UPH50/M</td>
+  <td class=3Dxl682266>Post holder camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>18</td>
+  <td class=3Dxl682266>RS50/M</td>
+  <td class=3Dxl692266>Pillar post (L=3D50 mm)</td>
+  <td class=3Dxl682266 align=3Dright>44</td>
+  <td class=3Dxl682266>TR50/M</td>
+  <td class=3Dxl682266>Post camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>19</td>
+  <td class=3Dxl682266>RS5/M</td>
+  <td class=3Dxl692266>Post spacer (L=3D5mm)</td>
+  <td class=3Dxl682266 align=3Dright>45</td>
+  <td class=3Dxl682266>SM1V10</td>
+  <td class=3Dxl682266>Tube BS1 to box<span style=3D'mso-spacerun:yes'>�</s=
+pan></td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>20</td>
+  <td class=3Dxl682266>RS1.5P/M</td>
+  <td class=3Dxl692266>Pedestal pillar post (L=3D38mm)</td>
+  <td class=3Dxl682266 align=3Dright>46</td>
+  <td class=3Dxl682266>ER1-P4</td>
+  <td class=3Dxl682266>4x Cage Rods BS1 to box</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>21</td>
+  <td class=3Dxl682266>CF125C/M</td>
+  <td class=3Dxl692266>Clamping fork for M1 post</td>
+  <td class=3Dxl682266 align=3Dright>47</td>
+  <td class=3Dxl682266>ERSCA-P4</td>
+  <td class=3Dxl682266>2x4 Rod adapter BS1 to box</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>22</td>
+  <td class=3Dxl682266>SM1L03</td>
+  <td class=3Dxl692266>Tube 1<span style=3D'mso-spacerun:yes'>� </span>M2 t=
+o BS1</td>
+  <td class=3Dxl702266>M1</td>
+  <td class=3Dxl712266>BB1-E02</td>
+  <td class=3Dxl712266>First Mirror</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>23</td>
+  <td class=3Dxl682266>SM1S10</td>
+  <td class=3Dxl692266>Tube 2 M2 to BS1</td>
+  <td class=3Dxl702266>M2</td>
+  <td class=3Dxl712266>BB1-E02</td>
+  <td class=3Dxl712266>Second Mirror</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>24</td>
+  <td class=3Dxl682266>ER1.5-P4</td>
+  <td class=3Dxl692266>1x4 rods M2 to BS1 (1.5'')</td>
+  <td class=3Dxl702266>BS1</td>
+  <td class=3Dxl722266>21012</td>
+  <td class=3Dxl712266>10/90 Beamsplitter</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>25</td>
+  <td class=3Dxl682266>CM1-DCH/M</td>
+  <td class=3Dxl692266>Cage Cube for BS1</td>
+  <td class=3Dxl702266>L2</td>
+  <td class=3Dxl712266>AC254-030-AML</td>
+  <td class=3Dxl712266>Lens for Camera</td>
+ </tr>
+ <tr class=3Dxl632266 height=3D13 style=3D'mso-height-source:userset;height=
+:9.75pt'>
+  <td height=3D13 class=3Dxl672266 style=3D'height:9.75pt'>26</td>
+  <td class=3Dxl682266>TR50/M0</td>
+  <td class=3Dxl692266>Post BS1(L=3D50mm)</td>
+  <td class=3Dxl702266>L3</td>
+  <td class=3Dxl722266>49793</td>
+  <td class=3Dxl712266>Lens for Photodetector</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D42 style=3D'width:32pt'></td>
+  <td width=3D77 style=3D'width:58pt'></td>
+  <td width=3D274 style=3D'width:206pt'></td>
+  <td width=3D40 style=3D'width:30pt'></td>
+  <td width=3D103 style=3D'width:77pt'></td>
+  <td width=3D203 style=3D'width:152pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
