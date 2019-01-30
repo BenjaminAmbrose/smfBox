@@ -60,7 +60,7 @@ The real text begins here.
 <h1 id="Data Analysis">Data Analysis</h1>
 <br>
 <p>
-For analysis of data from the smfBox we recommend the <a href="https://fretbursts.readthedocs.io/en/latest/" target="_self">FRETBursts</a> python package, and provide <a href="http://jupyter.org/" target="_self">Jupyter</a> Notebooks with which to do this.
+For analysis of data from the smfBox we recommend the <a href="https://fretbursts.readthedocs.io/en/latest/" target="_self">FRETBursts</a> python package <a href="#Fretbursts">(Ingargiola 2016)</a>, and provide <a href="http://jupyter.org/" target="_self">Jupyter</a> Notebooks with which to do this.
 
 Jupyter Notebooks run in browser, and can be easily edited by anyone with a knowledge of python whilst remaining accessible to non-programmers. They can also be published as stand alone .html's for transparent presentation of data alongside the analysis exactly as it was performed. <a href="./Jnotebooks/example.html" target="_self">See here for an example</a>. To set this up:
 <p/>
@@ -74,15 +74,16 @@ Jupyter Notebooks run in browser, and can be easily edited by anyone with a know
   <figure style="max-width:559px;">
  <img src="images/converters.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; ">
  <figcaption>
- <strong></strong>Types of data converter we provide for the smfBox
+ <strong>Fig 1:</strong> Types of data converter we provide for the smfBox
  </figcaption></figure>
  <br>
-<p>The acquisition software saves txt files which contain the timestamp of each photon in one column and the detector it arrived at in a second column. For usage in analysis we have created python scripts which can convert these TXT files to the open source photon-HDF5 format. This format contains not only the raw data but also can be written with sufficient metadata that the reader knows i. the origin and nature of the sample and experiment the data was acquired from and ii. Information required to interpret it. In this case the data originates from two unpolarised detectors acquired with a μs-ALEX scheme, and the script will write an HDF5 file which contains information for any analysis software to interpret it as such.
+<p>The acquisition software saves txt files which contain the timestamp of each photon in one column and the detector it arrived at in a second column. For usage in analysis we have created python scripts which can convert these TXT files to the open source photon-HDF5 format <a href="#hdf5">(Ingargiola 2016)</a>. This format contains not only the raw data but also can be written with sufficient metadata that the reader knows i. the origin and nature of the sample and experiment the data was acquired from and ii. Information required to interpret it. In this case the data originates from two unpolarised detectors acquired with a μs-ALEX scheme, and the script will write an HDF5 file which contains information for any analysis software to interpret it as such.
 The scripts provided can convert a single TXT to a single HDF5, multiple TXT’s from one acquisition (iteration conversion) into one HDF5, or multiple runs into their respective HDF5's (batch conversion).
 These conversion scripts are available as Jupyter Notebooks, as the analysis we provide is with the FRETBursts python module in Jupyter. However there is no reason why the code should not work in any other python environment as long as it has the phconvert module.
 
 </p>
 <p>phconvert will automatically install alongside FRETBursts if you have followed the instructions above.<p/>
+
 
  <h1 id="Analysis"><a id="body"></a>Analysis</h1>
  <ul style="list-style-type:none">
@@ -101,10 +102,10 @@ These conversion scripts are available as Jupyter Notebooks, as the analysis we 
 </ul>
  <h1 id="References"><a id="References"></a>References</h1>
  <li>FRETBursts: An Open Source Toolkit for Analysis of Freely-Diffusing Single-Molecule FRET
-   Ingargiola et al. (2016). <a href="http://dx.doi.org/10.1371/journal.pone.0160716" target="_self">http://dx.doi.org/10.1371/journal.pone.0160716</a></li>
+   Ingargiola et al. (2016). Available from: <a id="Fretbursts" href="http://dx.doi.org/10.1371/journal.pone.0160716" target="_self">10.1371/journal.pone.0160716</a></li>
    <br>
 
-<li>Ingargiola A, Laurence T, Boutelle R, Weiss S, Michalet X. Photon-HDF5: open data format and computational tools for timestamp-based single-molecule experiments. In: Single Molecule Spectroscopy and Superresolution Imaging IX. vol. 971405. SPIE; 2016. Available from: <a href="http://dx.doi.org/10.1117/12.2212085" target="_self">http://dx.doi.org/10.1117/12.2212085</a><p/>
+<li>Ingargiola A, Laurence T, Boutelle R, Weiss S, Michalet X. Photon-HDF5: open data format and computational tools for timestamp-based single-molecule experiments. In: Single Molecule Spectroscopy and Superresolution Imaging IX. vol. 971405. SPIE; 2016. Available from: <a id="hdf5" href="http://dx.doi.org/10.1117/12.2212085" target="_self">10.1117/12.2212085</a><p/>
    </li>
 </section>
 <br><footer><script src="footer.js"></script></footer>
