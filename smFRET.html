@@ -57,10 +57,12 @@ The real text begins here.
  -->
  <section>
 
-<h1 id="Single-Molecule FRET">Single-Molecule FRET</h1>
+<h1 id="Single-Molecule Förster Resonance Energy Transfer (FRET)">Single-Molecule Förster Resonance Energy Transfer (FRET)</h1>
 <br>
 <p>
 smFRET is a powerful biophysical technique which can reveal spatial information about biomolecules in a way which is sensitive to both dynamic and static heterogeneity between subpopulations within the same sample. It can measure kinetics of conformational changes at equilibrium with no need for synchronisation, and can measure absolute distances for infering precise structural information.
+<br><br>
+Due to the extensive use of green and red for donor/acceptor on this page, a <a id="cbf" href="./smFRETcbf.html" target="_self">COLOUR BLIND FRIENDLY VERSION</a> has been made available.
 <br>
 
 
@@ -72,7 +74,7 @@ smFRET is a powerful biophysical technique which can reveal spatial information 
    <figure style="max-width:1180px;">
    <img src="images/smfretfig1.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
    <figcaption>
-    <strong>Fig 1a.</strong> Jablonski-Perrin diagram of Förster resonance energy transfer. Upon excitation and vibrational
+    <strong>Fig 1a.</strong> Jablonski-Perrin diagram of FRET. Upon excitation and vibrational
 relaxation, the donor excited state can decay either through fluorescence or through resonance energy transfer to
 the acceptor. The acceptor then fluoresces, but only after also undergoing vibrational relaxation, which further
 reduces the energy of the emitted photon. <strong>b.</strong> Equation giving the relationship between efficiency of transfer and
@@ -80,10 +82,10 @@ distance, r. R0 is the Förster radius which is characteristic of any given fluo
 
 </figcaption></figure>
    <br>
-   FRET is the transfer of excitation energy from a short wavelength fluorophore to a long wavelength fluorophore. The transfer has a strong distance dependence in the 3-10 nm range
+   FRET is the transfer of excitation energy from a short wavelength fluorophore to a long wavelength fluorophore <a href="#zwischen">(Förster 1948)</a>. The transfer has a strong distance dependence in the 3-10 nm range
    and so is often exploited for studying biomolecules. This is typically used to study <em>binary</em> on/off processes at the ensemble level, such as cleaving, binding, opening etc.
   </ul>
- <h1 id="Confocal Single-Molecule Detection and ALEX"><a id="Confocal Single-Molecule Detection and ALEX"></a>Confocal Single-Molecule Detection and ALEX</h1>
+ <h1 id="Confocal Single-Molecule Detection and Alternating Laser Excitation (ALEX)"><a id="Confocal Single-Molecule Detection and Alternating Laser Excitation (ALEX)"></a>Confocal Single-Molecule Detection and Alternating Laser Excitation (ALEX)</h1>
  <ul>
    <figure style="max-width:1080px;">
    <img src="images/smfretfig2.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
@@ -91,7 +93,7 @@ distance, r. R0 is the Förster radius which is characteristic of any given fluo
      <strong>Fig 2a. </strong>Single molecules diffuse in and out of a confocal volume of approximately 1 μm<sup>3</sup> constructed by focusing the lasers into a diffraction limited spot and using lenses and a pinhole to select light in a thin focal plane. Alternating laser excitation (ALEX) 20,000 times a second between the donor (green) and acceptor (red) allows excitation of either dye multiple times per molecule as it transits the confocal volume. <strong>b</strong>. A typical time trace for an smFRET experiment, as per C, green emission under green excitation is shown in green (DexDem), red emission under green excitation shown in red, and red emission under red excitation is shown in purple. Encircled bursts from left to right are acceptor only, donor only, and doubly labelled. <strong>c. </strong>Equations for E and S. E* is the apparent FRET efficiency (see next section), it is a ratiometric measure which scales with distance. S, stoichiometry, is a measure of the presence of either dye, which can be assessed from the acceptor excitation of ALEX. <strong>d. </strong> A 2D ES histogram showing dye stoichiometry against FRET efficiency. Donor only molecules appear with low E* but high S, and acceptor only molecules appear with low S. Doubly labelled molecules appear with intermediate S.
    </figcaption></figure>
    <br>
-smFRET techniques typically achieve the high signal to noise ration needed to detect single molecules by using a reduced detection volume. This can be done using total internal reflection (TIRFM) for immobilised molecules, or using a diffraction limited spot for freely diffusing molecules as in the smfBox. By alternating the excitation laser between donor and acceptor wavelengths, not only can FRET efficiency be measured (under donor excitation), but apparent dye stoichometry can also be accessed. In this way, a low FRET efficiency molecule can easily be distinguished from a donor in the absence of an acceptor, which may arise from incomplete labelling or photobleaching.
+smFRET techniques typically achieve the high signal to noise ration needed to detect single molecules by using a reduced detection volume. This can be done using Total Internal Reflection Fluorescence Microscope (TIRFM) for immobilised molecules, or using a diffraction limited spot for freely diffusing molecules as in the smfBox. By alternating the excitation laser between donor and acceptor wavelengths, not only can FRET efficiency be measured (under donor excitation), but apparent dye stoichometry can also be accessed <a href="#accurate">(Lee 2005)</a>. In this way, a low FRET efficiency molecule can easily be distinguished from a donor in the absence of an acceptor, which may arise from incomplete labelling or photobleaching.
  </ul>
  <h1 id="Accurate FRET"><a id="Accurate FRET"></a>Accurate FRET</h1>
  <ul>
@@ -103,7 +105,7 @@ smFRET techniques typically achieve the high signal to noise ration needed to de
    <br>
    Amongst the many applications of smFRET is finding <em>Accurate</em> FRET efficiency for absolute distance determination. For reasons shown in 3b, the equation for E in 2c does not give true FRET efficiency. However the use of an additional laser for acceptor excitation as in ALEX gives access to sufficient comparative parameters to correct E.
    <br>
-   As shown in <strong>Fig 4</strong>, a recent worldwide benchmarking study has shown this method of absolute FRET determination to be both precise and accurate, and just as possible with the smfBox as any other microscope.
+   As shown in <strong>Fig 4</strong>, a recent worldwide benchmarking study <a href="#precise">(Hellenkamp 2018)</a>, has shown this method of absolute FRET determination to be both precise and accurate, and just as possible with the smfBox as any other microscope.
 <br>
   <figure style="max-width:477px;">
    <img src="images/smfretfig4.png" style="mix-blend-mode: multiply; width:90%; padding-left:5%; "> <br>
@@ -112,16 +114,16 @@ smFRET techniques typically achieve the high signal to noise ration needed to de
       </figcaption></figure>
       <h1 id="References"><a id="References"></a>References</h1>
       <li> Förster, T. Zwischenmolekulare Energiewanderung und
-Fluoreszenz. Ann. Phys. 1948, 437, 55−75</li>
+Fluoreszenz. Ann. Phys. 1948, 437, 55−75 <a id="zwischen" href="https://www.spiedigitallibrary.org/journals/Journal-of-Biomedical-Optics/volume-17/issue-1/011002/Energy-migration-and-fluorescence/10.1117/1.JBO.17.1.011002.full?SSO=1" target="_self">English translation available here</a> </li>
       <li> Lee, N. K.; Kapanidis, A. N.; Wang, Y.; Michalet, X.;
 Mukhopadhyay, J.; Ebright, R. H.; Weiss, S. Accurate FRET
 Measurements within Single Diffusing Biomolecules Using Alternating-Laser
-Excitation. Biophys. J. 2005, 88, 2939−53<br>
+Excitation. Biophys. J. 2005, 88, 2939−53 Available from: <a id="accurate" href="https://doi.org/10.1529/biophysj.104.054114" target="_self">10.1529/biophysj.104.054114</a><br>
       <li> Hellenkamp, B.; Schmid, S.; Doroshenko, O.; Opanasyuk, O.;
 Kühnemuth, R.; Adariani, S. R.; Ambrose, B.; Aznauryan, M.; Barth,
 A.; Birkedal, V.; et al. Precision and Accuracy of Single-Molecule
-FRET Measurementsa Multi-Laboratory Benchmark Study. Nat.
-Methods 2018, 15, 669−676</li>
+FRET Measurements a Multi-Laboratory Benchmark Study. Nat.
+Methods 2018, 15, 669−676 Available from: <a id="precise" href="https://doi.org/10.1038/s41592-018-0085-0" target="_self">10.1038/s41592-018-0085-0</a></li>
 </section>
 <br><footer><script src="footer.js"></script></footer>
  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
