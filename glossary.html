@@ -1,0 +1,200 @@
+<!doctype html>
+<!--
+##############################################################
+Ignore this boilerplate if you're just trying to edit the text.
+Skip to the part that says 'The real text begins here'
+##############################################################
+
+Based on this theme: https://github.com/broccolini/dinky , which mentioned that attribution
+is appreciated. Thanks, broccolini!
+-->
+<html lang="en">
+  <head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="citation_title" content="smfBox">
+    <meta name="citation_author" content="Craggs Lab">
+    <meta name="citation_publication_date" content="[insterpublicaton date here]">
+    <title>smfBox - Craggs Lab</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <!--[if lt IE 9]>
+    <script src="javascript/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+<a href="http://browsehappy.com/">upgrade your browser</a> to improve your
+experience.</p>
+    <![endif]-->
+    <script src="javascript/scale-fix/scale.fix.js"></script>
+    <script src="javascript/python-highlighting/prism.js"></script>
+    <script async  src="javascript/Minimal-MathJax/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script src="javascript/update_figures.js"></script>
+    <script src="javascript/preload_figures.js"></script>
+    <script src="javascript/reference_list/reference_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.slidecontainer {
+    width: 97.5%;
+	padding-left:1%;
+	padding-right:1.5%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 15px;
+    background: #000000;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 50px;
+    height: 15px;
+    background: #000000;
+    cursor: pointer;
+}
+</style>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <script src="header.js"></script>
+      </header>
+<!--
+##############################################################
+The real text begins here.
+##############################################################
+ -->
+ <section>
+  <h1>Glossary of terms</h1>
+
+On this page is a list of common terms, abbreviations, acronyms, initialisms, and expressions used throughout the site.
+<br><br>
+<table>
+
+  <tbody>
+    <tr>
+      <td>ALEX</td>
+      <td>alternating laser excitation, refers to the alternation of donor and acceptor lasers on the timescale of ~ 10 KHz</td>
+    </tr>
+    <tr>
+      <td>APD</td>
+      <td>avalanche photodiode, a type of single photon detector</td>
+    </tr>
+    <tr>
+      <td>α</td>
+      <td>Leakage correction term, determined from observed FRET efficiency of a donor only sample (see leakage)</td>
+    </tr>
+    <tr>
+      <td>BS</td>
+      <td>Beamsplitter, reflects a percentage of incoming light whilst transmitting the rest, irrespective of wavelength</td>
+    </tr>
+    <tr>
+      <td>β</td>
+      <td>excitation efficiency term, determined a number of ways from comparison of dye stoichiometry’s of multiple different FRET efficiencies, with gamma</td>
+    </tr>
+    <tr>
+      <td>CCD</td>
+      <td>Charge coupled device, the camera we use for focusing</td>
+    </tr>
+    <tr>
+      <td>DD, DA, AA</td>
+      <td>Notation referring to photon counts, where the first letter refers to the laser and the second letter refers to the detector, ie. DA = acceptor emission under donor excitation</td>
+    </tr>
+    <tr>
+      <td>Detection efficiency</td>
+      <td>A culmination of quantum yield of fluorescence, portion of emission spectrum permitted by filters, and quantum yield of detection for emission wavelength for any fluorophore. These may not be the same for the donor and acceptor.</td>
+    </tr>
+    <tr>
+      <td>Direct excitation</td>
+      <td>Fluorescence of the acceptor which comes from direct excitation from the donor laser rather than from FRET (see delta)</td>
+    </tr>
+    <tr>
+      <td>DM</td>
+      <td>Dichroic Mirror, reflects light of certain wavelengths whilst transmitting others</td>
+    </tr>
+    <tr>
+      <td>δ</td>
+      <td>direct excitation correction term, determined from observed Dye stoichiometry of an acceptor only sample (see direct excitation)</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>FRET Efficiency, the percentage of photons transmitted to (by FRET) the acceptor. Uncorrected FRET efficiency, (E*, or PR – proximity ratio) is obtained from:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>DA / (DD + DA)</td>
+    </tr>
+    <tr>
+      <td>Excitation efficiency</td>
+      <td>A culmination of laser power and extinction coefficient at the laser wavelength for a fluorophore. These may not be the same for the donor and acceptor and their respective lasers.</td>
+    </tr>
+    <tr>
+      <td>FLFA</td>
+      <td>four letter fluorescence acronym</td>
+    </tr>
+    <tr>
+      <td>FRET</td>
+      <td>Förster resonance energy transfer</td>
+    </tr>
+    <tr>
+      <td>γ</td>
+      <td>detection efficiency correction term, determined a number of ways from comparison of dye stoichiometry’s of multiple different FRET efficiencies, with beta</td>
+    </tr>
+    <tr>
+      <td>HDF5</td>
+      <td>Hierarchical Data Format, a set of scientific data formats, one of which is photon-HDF5</td>
+    </tr>
+    <tr>
+      <td>Leakage</td>
+      <td>Fluorescence of the donor which arrives at the acceptor detector (see alpha)</td>
+    </tr>
+    <tr>
+      <td>S</td>
+      <td>Dye Stoichiometry, the ratio of donor and acceptor present in a molecule, corrected S is 0.5 for a dual labelled, 1 for donor only, and 0 for acceptor only molecule. Uncorrected dye stoichiometry is obtained from:</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>(DD + DA) / (DD + DA + AA)</td>
+    </tr>
+    <tr>
+      <td>smFRET</td>
+      <td>single-molecule FRET, techniques involving measuring the FRET efficiency of single molecules</td>
+    </tr>
+    <tr>
+      <td>TIRF</td>
+      <td>total internal reflection fluorescence (microscopy), method for illuminating a thin section (~ 200 nm) of sample</td>
+    </tr>
+
+</tbody>
+</table>
+  </section>
+<br>
+<br>
+<br><footer><script src="footer.js"></script></footer>
+ <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
