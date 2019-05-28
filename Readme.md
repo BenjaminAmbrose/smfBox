@@ -1,4 +1,4 @@
-Home of the smfBox GithubPages documents. See the site in action on https://benjaminambrose.github.io/smfBox/. 
+Home of the smfBox GithubPages documents. See the site in action on https://craggslab.github.io/smfBox/. 
 
 forked from https://github.com/BenjaminAmbrose/smfBox 28/05/2019
 
