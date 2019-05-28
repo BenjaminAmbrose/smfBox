@@ -13,7 +13,7 @@ document.write('\
 		<font style="line-height:1.5em;">\
         <table>\
 		<tr><td>\
-		<a class="buttons github" href="https://github.com/BenjaminAmbrose/smfBox" style="padding-top:0px;">View On GitHub</a></td><td>&nbsp;&nbsp;&nbsp;</td><td>\
+		<a class="buttons github" href="https://github.com/craggslab/smfBox" style="padding-top:0px;">View On GitHub</a></td><td>&nbsp;&nbsp;&nbsp;</td><td>\
 		<a class="buttons twitter" href="https://twitter.com/Craggs_Lab" style="padding-top:0px;">Twitter</a></td></tr>\
 		<tr><td><a class="buttons lab" href="https://craggs-lab.com/" style="margin-bottom:0px; align:right;">Craggs Lab</a></td><td>&nbsp;&nbsp;&nbsp;</td><td>\
 		<!--<a class="buttons pdf" href="" style="margin-bottom:0px; align:right;">Download PDF</a>--></td></tr>\
